@@ -33,4 +33,4 @@ Learning to code can be a tricky, rewarding, and often frustrating business.  Lu
 
 The [slides folder](https://github.com/ContextLab/cs-for-psych/tree/master/slides) contains all course materials, organized as a set of Jupyter notebooks.  Use the [Slides README file](https://github.com/ContextLab/cs-for-psych/blob/master/slides/README.md) to track down the relevant notebooks.
 
-The [assignments README file](https://github.com/ContextLab/cs-for-psych/blob/master/assignments/README.md) contains links to all course assignments and the associated source code.  We'll use [GitHub Classroom](https://classroom.github.com/classrooms/22374976-introduction-to-programming-for-psychological-scientists-psyc-32) to distribute assignments.  (You can log into GitHub Classroom with your GitHub credentials.)
+The [assignments README file](https://github.com/ContextLab/cs-for-psych/blob/master/assignments/README.md) contains links to all course assignments and the associated source code.  We'll use [GitHub Classroom](https://classroom.github.com/) to distribute assignments.  (You can log into GitHub Classroom with your GitHub credentials.)
