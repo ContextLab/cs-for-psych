@@ -11,7 +11,7 @@
 - [Control flow and order of operations](https://colab.research.google.com/github/ContextLab/cs-for-psych/blob/master/slides/module_2/control_flow_and_ooo.ipynb)
 - Dictionaries and classes
 - Passing by value vs. reference
-- Inline (lambda) functions and mapping
+- Inline (lambda) functions, mapping, and vectorization
 - Assignment 2: ELIZA
 
 ## Module 3: Find your inner hacker
