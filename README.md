@@ -5,7 +5,13 @@
 This repository contains course materials for the Dartmouth Course [Introduction to Programming for Psychological Scientists (PSYC 32)](https://pbs.dartmouth.edu/undergraduate/courses-and-syllabi/intermediate-courses-2019-2020).  The syllabus may be found [[here](https://github.com/ContextLab/cs-for-psych/blob/master/PSYC_32_syllabus.pdf)].  Feel free to follow along with the course materials (whether you are officially enrolled in the course or just visiting!), submit comments and suggestions, etc.  If you are a Dartmouth student currently enrolled in this course, please read the *Student instructions* below to get set up.  A list of tutorials and some ideas for tracking down some nice datasets may be found at the bottom of this document.
 
 ## A note about this Open Course
-This course is taught as an *Open Course*, meaning that the course is designed from the ground up to be shareable and accessible to anyone.  To that end, all code for this course should be written in [Python](https://www.python.org/) and organized in a [Jupyter notebook](http://jupyter.org/).  Any data you analyze must be shareable with all other students in the course, and ideally it should be shareable with the public.  All code and other student-generated materials will be shared publicly.
+This course is taught as an *Open Course*, meaning that the course is designed from the ground up to be shareable and freely accessible to anyone.  All code for this course is written in [Python](https://www.python.org/) and most of the material is organized in [Jupyter notebooks](http://jupyter.org/).
+
+Feel free to follow along with this course, do the assignments, post questions and/or issues to this repository or Gitter, suggest changes, etc.  However, I won't formally evaluate your submitted work unless you are a Dartmouth undergraduate student currently enrolled in PSYC 32.
+
+If you are a course instructor teaching overlapping material, feel free to borrow any materials used in this course!  If you directly copy (or "draw heavy inspiration from") the materials, I would appreciate a citation (e.g., a pointer to this repository).  I'd also love to hear from you about how you're using this resource!
+
+This course is a continually evolving work in progress.  I plan to update the material to keep the syllabus fresh and relevant.  By the same token, although my goal is 100% accuracy and currency, it's unlikely that I'll achieve that goal.  You should participate with the understanding that this material will likely have occasional mistakes, ommissions, errors, etc.  Given this fact, one way to approach the course is to maintain an open yet critical view of the material.  If you think there's a mistake, I encourage you to bring it to my attention!
 
 # Student instructions
 
