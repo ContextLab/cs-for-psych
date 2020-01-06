@@ -10,7 +10,7 @@
 - [Interactive programs](https://colab.research.google.com/github/ContextLab/cs-for-psych/blob/master/slides/module_2/interactive_programming.ipynb)
 - [Control flow and order of operations](https://colab.research.google.com/github/ContextLab/cs-for-psych/blob/master/slides/module_2/control_flow_and_ooo.ipynb)
 - [Dictionaries and classes](https://colab.research.google.com/github/ContextLab/cs-for-psych/blob/master/slides/module_2/dictionaries_and_classes.ipynb)
-- Passing by value vs. reference
+- Variable scope and passing by value vs. reference
 - Inline (lambda) functions, mapping, list comprehensions, and generators
 - Assignment 2: ELIZA
 
