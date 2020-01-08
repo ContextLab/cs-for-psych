@@ -11,12 +11,13 @@
 - [Control flow and order of operations](https://colab.research.google.com/github/ContextLab/cs-for-psych/blob/master/slides/module_2/control_flow_and_ooo.ipynb)
 - [Dictionaries and classes](https://colab.research.google.com/github/ContextLab/cs-for-psych/blob/master/slides/module_2/dictionaries_and_classes.ipynb)
 - [Variable scope and passing by value vs. reference](https://colab.research.google.com/github/ContextLab/cs-for-psych/blob/master/slides/module_2/scope_and_passing_by_value_vs_reference.ipynb)
-- Writing pythonic code: list comprehensions, generators, inline (lambda) functions, and mapping
+- [Writing pythonic code: list comprehensions, generators, and iterators](https://colab.research.google.com/github/ContextLab/cs-for-psych/blob/master/slides/module_2/pythonic_code.ipynb)
 - Assignment 2: ELIZA
 
 ## Module 3: Find your inner hacker
 - Modular programming and compositionality
 - Recursion
+- Lambda functions and mapping
 - Whirlwind tour of data structures and search
 - Debugging and unit tests
 - Optimization
