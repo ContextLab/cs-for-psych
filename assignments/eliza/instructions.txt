@@ -1,5 +1,7 @@
-initial: How do you do.  Please tell me your problem.
-final: Goodbye.  Thank you for talking to me.
+initial: Welcome. What brings you here today ?
+initial: How are you doing ?
+final: See you again next week.
+final: That will be $200.
 quit: bye
 quit: goodbye
 quit: quit
@@ -44,10 +46,10 @@ key: xnone
     reasmb: Do you feel strongly about discussing such things ?
 key: sorry
   decomp: *
-    reasmb: Please don't apologise.
+    reasmb: Please don't apologize.
     reasmb: Apologies are not necessary.
     reasmb: I've told you that apologies are not required.
-key: apologise
+key: apologize
   decomp: *
     reasmb: goto sorry
 key: remember 5
@@ -66,7 +68,7 @@ key: remember 5
     reasmb: You mentioned (2) ?
 key: if 3
   decomp: * if *
-    reasmb: Do you think its likely that (2) ?
+    reasmb: Do you think it is likely that (2) ?
     reasmb: Do you wish that (2) ?
     reasmb: What do you know about (2) ?
     reasmb: Really, if (2) ?
@@ -122,7 +124,7 @@ key: computer 50
     reasmb: Why do you mention computers ?
     reasmb: What do you think machines have to do with your problem ?
     reasmb: Don't you think computers can help people ?
-    reasmb: What about machines worrys you ?
+    reasmb: What about machines worries you ?
     reasmb: What do you think about machines ?
 key: am
   decomp: * am i *
@@ -320,7 +322,7 @@ key: why
     reasmb: goto what
 key: everyone 2
   decomp: * @everyone *
-    reasmb: Realy, (2) ?
+    reasmb: Really, (2) ?
     reasmb: Surely not (2) .
     reasmb: Can you think of anyone in particular ?
     reasmb: Who, for example?
@@ -347,12 +349,12 @@ key: always 1
 key: alike 10
   decomp: *
     reasmb: In what way ?
-    reasmb: What resemblence do you see ?
+    reasmb: What resemblance do you see ?
     reasmb: What does that similarity suggest to you ?
     reasmb: What other connections do you see ?
-    reasmb: What do you suppose that resemblence means ?
+    reasmb: What do you suppose that resemblance means ?
     reasmb: What is the connection, do you suppose ?
-    reasmb: Could here really be some connection ?
+    reasmb: Could there really be some connection ?
     reasmb: How ?
 key: like 10
   decomp: * @be * like *
