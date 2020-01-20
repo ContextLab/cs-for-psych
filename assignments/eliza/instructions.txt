@@ -264,7 +264,7 @@ key: no
     reasmb: Why 'no' ?
 key: my 2
   decomp: $ * my *
-    reasmb: Lets discuss your (2) further.
+    reasmb: Lets discuss further why your (2) .
     reasmb: Earlier you said your (2) .
     reasmb: But your (2) .
     reasmb: Does that have anything to do with the fact that your (2) ?
