@@ -265,16 +265,16 @@ key: no
     reasmb: Why not ?
     reasmb: Why 'no' ?
 key: my 2
-  decomp: $ * my *
-    reasmb: Lets discuss further why your (2) .
-    reasmb: Earlier you said your (2) .
-    reasmb: But your (2) .
-    reasmb: Does that have anything to do with the fact that your (2) ?
   decomp: * my * @family *
     reasmb: Tell me more about your family.
     reasmb: Who else in your family (4) ?
     reasmb: Your (3) ?
     reasmb: What else comes to mind when you think of your (3) ?
+  decomp: $ * my *
+    reasmb: Lets discuss further why your (2) .
+    reasmb: Earlier you said your (2) .
+    reasmb: But your (2) .
+    reasmb: Does that have anything to do with the fact that your (2) ?
   decomp: * my *
     reasmb: Your (2) ?
     reasmb: Why do you say your (2) ?
