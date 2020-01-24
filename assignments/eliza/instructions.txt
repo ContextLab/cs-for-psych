@@ -274,7 +274,7 @@ key: my 2
     reasmb: Your (2) .
     reasmb: Let's discuss further why your (2) .
     reasmb: What does it indicate to you that your (2) ?
-    Reasmb: Tell me more about why your (2) .
+    reasmb: Tell me more about why your (2) .
   decomp: * my *
     reasmb: Your (2) ?
     reasmb: Why do you say your (2) ?
