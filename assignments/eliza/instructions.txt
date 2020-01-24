@@ -5,6 +5,9 @@ final: That will be $200.
 quit: bye
 quit: goodbye
 quit: quit
+quit: bye
+quit: goodbye
+quit: quit
 pre: dont don't
 pre: cant can't
 pre: wont won't
@@ -20,7 +23,6 @@ pre: computers computer
 pre: were was
 pre: you're you are
 pre: i'm i am
-pre: they're they are
 pre: same alike
 post: am are
 post: your my
@@ -37,7 +39,7 @@ synon: desire want need
 synon: sad unhappy depressed sick
 synon: happy elated glad better
 synon: cannot can't
-synon: everyone everybody nobody no-one
+synon: everyone everybody nobody noone
 synon: be am is are was
 key: xnone
   decomp: *
@@ -47,10 +49,10 @@ key: xnone
     reasmb: Do you feel strongly about discussing such things ?
 key: sorry
   decomp: *
-    reasmb: Please don't apologize.
+    reasmb: Please don't apologise.
     reasmb: Apologies are not necessary.
     reasmb: I've told you that apologies are not required.
-key: apologize
+key: apologise
   decomp: *
     reasmb: goto sorry
 key: remember 5
@@ -69,7 +71,7 @@ key: remember 5
     reasmb: You mentioned (2) ?
 key: if 3
   decomp: * if *
-    reasmb: Do you think it is likely that (2) ?
+    reasmb: Do you think its likely that (2) ?
     reasmb: Do you wish that (2) ?
     reasmb: What do you know about (2) ?
     reasmb: Really, if (2) ?
@@ -125,7 +127,7 @@ key: computer 50
     reasmb: Why do you mention computers ?
     reasmb: What do you think machines have to do with your problem ?
     reasmb: Don't you think computers can help people ?
-    reasmb: What about machines worries you ?
+    reasmb: What about machines worrys you ?
     reasmb: What do you think about machines ?
 key: am
   decomp: * am i *
@@ -148,7 +150,7 @@ key: are
     reasmb: Did you think they might not be (2) ?
     reasmb: Would you like it if they were not (2) ?
     reasmb: What if they were not (2) ?
-    reasmb: Possibly they are (2) .
+    reasmb: Possibly they are (2).
 key: your
   decomp: * your *
     reasmb: Why are you concerned over my (2) ?
@@ -166,12 +168,12 @@ key: was 2
   decomp: * i was *
     reasmb: Were you really ?
     reasmb: Why do you tell me you were (2) now ?
-    reasmb: Perhaps I already know you were (2) .
+    reasmb: Perhaps I already know you were (2).
   decomp: * was you *
     reasmb: Would you like to believe I was (2) ?
     reasmb: What suggests that I was (2) ?
     reasmb: What do you think ?
-    reasmb: Perhaps I was (2) .
+    reasmb: Perhaps I was (2).
     reasmb: What if I had been (2) ?
 key: i
   decomp: * i @desire *
@@ -181,23 +183,23 @@ key: i
     reasmb: What if you never got (3) ?
     reasmb: What would getting (3) mean to you ?
     reasmb: What does wanting (3) have to do with this discussion ?
-  decomp: * i am * @sad *
-    reasmb: I am sorry to hear that you are (3) .
+  decomp: * i am* @sad *
+    reasmb: I am sorry to hear that you are (3).
     reasmb: Do you think that coming here will help you not to be (3) ?
-    reasmb: I'm sure it's not pleasant to be (3) .
+    reasmb: I'm sure it's not pleasant to be (3).
     reasmb: Can you explain what made you (3) ?
-  decomp: * i am * @happy *
+  decomp: * i am* @happy *
     reasmb: How have I helped you to be (3) ?
     reasmb: Has your treatment made you (3) ?
     reasmb: What makes you (3) just now ?
-    reasmb: Can you explain why you are suddenly (3) ?
+    reasmb: Can you explan why you are suddenly (3) ?
   decomp: * i was *
     reasmb: goto was
   decomp: * i @belief * i *
     reasmb: Do you really think so ?
-    reasmb: But you are not sure you (3) .
+    reasmb: But you are not sure you (3).
     reasmb: Do you really doubt you (3) ?
-  decomp: * i * @belief * you *
+  decomp: * i* @belief *you *
     reasmb: goto you
   decomp: * i am *
     reasmb: Is it because you are (2) that you came to me ?
@@ -236,8 +238,8 @@ key: you
     reasmb: What makes you think I am (2) ?
     reasmb: Does it please you to believe I am (2) ?
     reasmb: Do you sometimes wish you were (2) ?
-    reasmb: Perhaps you would like to be (2) .
-  decomp: * you * me *
+    reasmb: Perhaps you would like to be (2).
+  decomp: * you* me *
     reasmb: Why do you think I (2) you ?
     reasmb: You like to think I (2) you -- don't you ?
     reasmb: What makes you think I (2) you ?
@@ -264,11 +266,11 @@ key: no
     reasmb: Why 'no' ?
 key: my 2
   decomp: $ * my *
-    reasmb: Lets discuss further why your (2) .
-    reasmb: Earlier you said your (2) .
-    reasmb: But your (2) .
+    reasmb: Lets discuss further why your (2).
+    reasmb: Earlier you said your (2).
+    reasmb: But your (2).
     reasmb: Does that have anything to do with the fact that your (2) ?
-  decomp: * my * @family *
+  decomp: * my* @family *
     reasmb: Tell me more about your family.
     reasmb: Who else in your family (4) ?
     reasmb: Your (3) ?
@@ -282,12 +284,12 @@ key: can
   decomp: * can you *
     reasmb: You believe I can (2) don't you ?
     reasmb: goto what
-    reasmb: You want me to be able to (2) .
+    reasmb: You want me to be able to (2).
     reasmb: Perhaps you would like to be able to (2) yourself.
   decomp: * can i *
     reasmb: Whether or not you can (2) depends on you more than me.
     reasmb: Do you want to be able to (2) ?
-    reasmb: Perhaps you don't want to (2) .
+    reasmb: Perhaps you don't want to (2).
     reasmb: goto what
 key: what
   decomp: *
@@ -323,8 +325,8 @@ key: why
     reasmb: goto what
 key: everyone 2
   decomp: * @everyone *
-    reasmb: Really, (2) ?
-    reasmb: Surely not (2) .
+    reasmb: Realy, (2) ?
+    reasmb: Surely not (2).
     reasmb: Can you think of anyone in particular ?
     reasmb: Who, for example?
     reasmb: Are you thinking of a very special person ?
@@ -350,13 +352,13 @@ key: always 1
 key: alike 10
   decomp: *
     reasmb: In what way ?
-    reasmb: What resemblance do you see ?
+    reasmb: What resemblence do you see ?
     reasmb: What does that similarity suggest to you ?
     reasmb: What other connections do you see ?
-    reasmb: What do you suppose that resemblance means ?
+    reasmb: What do you suppose that resemblence means ?
     reasmb: What is the connection, do you suppose ?
-    reasmb: Could there really be some connection ?
+    reasmb: Could here really be some connection ?
     reasmb: How ?
 key: like 10
-  decomp: * @be * like *
+  decomp: * @be *like *
     reasmb: goto alike
