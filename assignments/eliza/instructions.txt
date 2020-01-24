@@ -150,7 +150,7 @@ key: are
     reasmb: Did you think they might not be (2) ?
     reasmb: Would you like it if they were not (2) ?
     reasmb: What if they were not (2) ?
-    reasmb: Possibly they are (2).
+    reasmb: Possibly they are (2) .
 key: your
   decomp: * your *
     reasmb: Why are you concerned over my (2) ?
@@ -168,12 +168,12 @@ key: was 2
   decomp: * i was *
     reasmb: Were you really ?
     reasmb: Why do you tell me you were (2) now ?
-    reasmb: Perhaps I already know you were (2).
+    reasmb: Perhaps I already know you were (2) .
   decomp: * was you *
     reasmb: Would you like to believe I was (2) ?
     reasmb: What suggests that I was (2) ?
     reasmb: What do you think ?
-    reasmb: Perhaps I was (2).
+    reasmb: Perhaps I was (2) .
     reasmb: What if I had been (2) ?
 key: i
   decomp: * i @desire *
@@ -184,9 +184,9 @@ key: i
     reasmb: What would getting (3) mean to you ?
     reasmb: What does wanting (3) have to do with this discussion ?
   decomp: * i am * @sad *
-    reasmb: I am sorry to hear that you are (3).
+    reasmb: I am sorry to hear that you are (3) .
     reasmb: Do you think that coming here will help you not to be (3) ?
-    reasmb: I'm sure it's not pleasant to be (3).
+    reasmb: I'm sure it's not pleasant to be (3) .
     reasmb: Can you explain what made you (3) ?
   decomp: * i am * @happy *
     reasmb: How have I helped you to be (3) ?
@@ -197,7 +197,7 @@ key: i
     reasmb: goto was
   decomp: * i @belief * i *
     reasmb: Do you really think so ?
-    reasmb: But you are not sure you (3).
+    reasmb: But you are not sure you (3) .
     reasmb: Do you really doubt you (3) ?
   decomp: * i * @belief * you *
     reasmb: goto you
@@ -238,7 +238,7 @@ key: you
     reasmb: What makes you think I am (2) ?
     reasmb: Does it please you to believe I am (2) ?
     reasmb: Do you sometimes wish you were (2) ?
-    reasmb: Perhaps you would like to be (2).
+    reasmb: Perhaps you would like to be (2) .
   decomp: * you * me *
     reasmb: Why do you think I (2) you ?
     reasmb: You like to think I (2) you -- don't you ?
@@ -266,9 +266,9 @@ key: no
     reasmb: Why 'no' ?
 key: my 2
   decomp: $ * my *
-    reasmb: Lets discuss further why your (2).
-    reasmb: Earlier you said your (2).
-    reasmb: But your (2).
+    reasmb: Lets discuss further why your (2) .
+    reasmb: Earlier you said your (2) .
+    reasmb: But your (2) .
     reasmb: Does that have anything to do with the fact that your (2) ?
   decomp: * my * @family *
     reasmb: Tell me more about your family.
@@ -284,12 +284,12 @@ key: can
   decomp: * can you *
     reasmb: You believe I can (2) don't you ?
     reasmb: goto what
-    reasmb: You want me to be able to (2).
+    reasmb: You want me to be able to (2) .
     reasmb: Perhaps you would like to be able to (2) yourself.
   decomp: * can i *
     reasmb: Whether or not you can (2) depends on you more than me.
     reasmb: Do you want to be able to (2) ?
-    reasmb: Perhaps you don't want to (2).
+    reasmb: Perhaps you don't want to (2) .
     reasmb: goto what
 key: what
   decomp: *
@@ -326,7 +326,7 @@ key: why
 key: everyone 2
   decomp: * @everyone *
     reasmb: Really, (2) ?
-    reasmb: Surely not (2).
+    reasmb: Surely not (2) .
     reasmb: Can you think of anyone in particular ?
     reasmb: Who, for example?
     reasmb: Are you thinking of a very special person ?
