@@ -183,23 +183,23 @@ key: i
     reasmb: What if you never got (3) ?
     reasmb: What would getting (3) mean to you ?
     reasmb: What does wanting (3) have to do with this discussion ?
-  decomp: * i am* @sad *
+  decomp: * i am * @sad *
     reasmb: I am sorry to hear that you are (3).
     reasmb: Do you think that coming here will help you not to be (3) ?
     reasmb: I'm sure it's not pleasant to be (3).
     reasmb: Can you explain what made you (3) ?
-  decomp: * i am* @happy *
+  decomp: * i am * @happy *
     reasmb: How have I helped you to be (3) ?
     reasmb: Has your treatment made you (3) ?
     reasmb: What makes you (3) just now ?
-    reasmb: Can you explan why you are suddenly (3) ?
+    reasmb: Can you explain why you are suddenly (3) ?
   decomp: * i was *
     reasmb: goto was
   decomp: * i @belief * i *
     reasmb: Do you really think so ?
     reasmb: But you are not sure you (3).
     reasmb: Do you really doubt you (3) ?
-  decomp: * i* @belief *you *
+  decomp: * i * @belief * you *
     reasmb: goto you
   decomp: * i am *
     reasmb: Is it because you are (2) that you came to me ?
@@ -239,7 +239,7 @@ key: you
     reasmb: Does it please you to believe I am (2) ?
     reasmb: Do you sometimes wish you were (2) ?
     reasmb: Perhaps you would like to be (2).
-  decomp: * you* me *
+  decomp: * you * me *
     reasmb: Why do you think I (2) you ?
     reasmb: You like to think I (2) you -- don't you ?
     reasmb: What makes you think I (2) you ?
@@ -270,7 +270,7 @@ key: my 2
     reasmb: Earlier you said your (2).
     reasmb: But your (2).
     reasmb: Does that have anything to do with the fact that your (2) ?
-  decomp: * my* @family *
+  decomp: * my * @family *
     reasmb: Tell me more about your family.
     reasmb: Who else in your family (4) ?
     reasmb: Your (3) ?
@@ -325,7 +325,7 @@ key: why
     reasmb: goto what
 key: everyone 2
   decomp: * @everyone *
-    reasmb: Realy, (2) ?
+    reasmb: Really, (2) ?
     reasmb: Surely not (2).
     reasmb: Can you think of anyone in particular ?
     reasmb: Who, for example?
@@ -352,13 +352,13 @@ key: always 1
 key: alike 10
   decomp: *
     reasmb: In what way ?
-    reasmb: What resemblence do you see ?
+    reasmb: What resemblance do you see ?
     reasmb: What does that similarity suggest to you ?
     reasmb: What other connections do you see ?
-    reasmb: What do you suppose that resemblence means ?
+    reasmb: What do you suppose that resemblance means ?
     reasmb: What is the connection, do you suppose ?
-    reasmb: Could here really be some connection ?
+    reasmb: Could there really be some connection ?
     reasmb: How ?
 key: like 10
-  decomp: * @be *like *
+  decomp: * @be * like *
     reasmb: goto alike
