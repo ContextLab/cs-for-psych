@@ -30,7 +30,7 @@ post: me you
 post: myself yourself
 post: yourself myself
 post: i you
-post: you I
+post: you me
 post: my your
 post: i'm you are
 synon: belief feel think believe wish
