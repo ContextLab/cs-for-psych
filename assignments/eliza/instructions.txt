@@ -272,13 +272,14 @@ key: my 2
     reasmb: What else comes to mind when you think of your (3) ?
   decomp: $ * my *
     reasmb: Your (2) .
-    reasmb: Let's discuss further why your (2) .
-    reasmb: What does it indicate to you that your (2) ?
-    reasmb: Tell me more about why your (2) .
+    reasmb: Let's discuss your (2) further .
+    reasmb: What does your (2) mean to you ?
+    reasmb: Tell me more about your (2) .
   decomp: * my *
     reasmb: Your (2) ?
-    reasmb: Why do you say your (2) ?
-    reasmb: Is it important that your (2) ?
+    reasmb: Why do you mention your (2) ?
+    reasmb: Is your (2) important ?
+    reasmb: Did you come to me to talk about your (2) ?
 key: can
   decomp: * can you *
     reasmb: You believe I can (2) don't you ?
