@@ -57,7 +57,7 @@
 ## Module 8: Timeseries analysis
 - Autocorrelation
 - Frequency transforms
-- [Dynamic correlations]((https://timecorr.readthedocs.io/en/latest/tutorials.html) (Source: [timecorr.readthedocs.io](https://timecorr.readthedocs.io/))
+- [Dynamic correlations](https://timecorr.readthedocs.io/en/latest/tutorials.html) (Source: [timecorr.readthedocs.io](https://timecorr.readthedocs.io/))
 - Assignment 8: Working with brain data
 
 ## Module 9: Natural language processing
