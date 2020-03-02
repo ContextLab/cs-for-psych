@@ -25,10 +25,12 @@
 - Assignment 3: Chess puzzle solver
 
 ## Module 4: External libraries
-- Numpy and Pandas
-- Matplotlib, Seaborn, Plotly
-- Scikit-learn
-- A (shallow) introduction to deep learning with Tensorflow and PyTorch
+- [Modules and Packages](https://jakevdp.github.io/WhirlwindTourOfPython/13-modules-and-packages.html) (from [Whirlwind Tour of Python](https://jakevdp.github.io/WhirlwindTourOfPython/index.html) by Jake VanderPlas)
+- [Numpy](https://jakevdp.github.io/PythonDataScienceHandbook/02.00-introduction-to-numpy.html) and [Pandas](https://jakevdp.github.io/PythonDataScienceHandbook/03.00-introduction-to-pandas.html) (from [Python Data Science Handbook](https://jakevdp.github.io/PythonDataScienceHandbook/index.html) by Jake VanderPlas)
+- [Data visualization overview](https://github.com/ContextLab/cs-for-psych/blob/master/slides/module_4/data_visualization.ipynb)
+- More details on plotting libraries: [Matplotlib](https://jakevdp.github.io/PythonDataScienceHandbook/04.00-introduction-to-matplotlib.html) and [Seaborn](https://jakevdp.github.io/PythonDataScienceHandbook/04.14-visualization-with-seaborn.html) (from [Python Data Science Handbook](https://jakevdp.github.io/PythonDataScienceHandbook/index.html) by Jake VanderPlas)
+- [Scikit-learn](https://jakevdp.github.io/PythonDataScienceHandbook/05.02-introducing-scikit-learn.html) (from [Python Data Science Handbook](https://jakevdp.github.io/PythonDataScienceHandbook/index.html) by Jake VanderPlas)
+- A (shallow) introduction to deep learning with [Tensorflow](https://www.tensorflow.org/tutorials/quickstart/beginner) (Source: [tensorflow.org](https://www.tensorflow.org/)) and [PyTorch](https://pytorch.org/tutorials/beginner/deep_learning_60min_blitz.html) (Source: [pytorch.org](https://pytorch.org/))
 - Assignment 4: Web scraping and data wrangling
 
 ## Module 5: Generating meaningful data
