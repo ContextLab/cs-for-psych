@@ -127,7 +127,7 @@ key: computer 50
     reasmb: Why do you mention computers ?
     reasmb: What do you think machines have to do with your problem ?
     reasmb: Don't you think computers can help people ?
-    reasmb: What about machines worrys you ?
+    reasmb: What about machines worries you ?
     reasmb: What do you think about machines ?
 key: am
   decomp: * am i *
