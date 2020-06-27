@@ -12,7 +12,7 @@
 - [Dictionaries and classes](https://colab.research.google.com/github/ContextLab/cs-for-psych/blob/master/slides/module_2/dictionaries_and_classes.ipynb)
 - [Variable scope and passing by value vs. reference](https://colab.research.google.com/github/ContextLab/cs-for-psych/blob/master/slides/module_2/scope_and_passing_by_value_vs_reference.ipynb)
 - [Writing Pythonic code: list comprehensions, generators, and iterators](https://colab.research.google.com/github/ContextLab/cs-for-psych/blob/master/slides/module_2/pythonic_code.ipynb)
-- Assignment 2: ELIZA
+- [Assignment 2: ELIZA](https://github.com/ContextLab/psyc32-eliza) [[Accept assignment](https://classroom.github.com/a/7b99w_qT)]
 
 ## Module 3: Find your inner hacker
 - Modular programming and compositionality
@@ -25,15 +25,18 @@
 - Assignment 3: Chess puzzle solver
 
 ## Module 4: External libraries
-- Numpy and Pandas
-- Matplotlib, Seaborn, Plotly
-- Scikit-learn
-- A (shallow) introduction to deep learning with Tensorflow and PyTorch
+- [Modules and Packages](https://jakevdp.github.io/WhirlwindTourOfPython/13-modules-and-packages.html) (from [Whirlwind Tour of Python](https://jakevdp.github.io/WhirlwindTourOfPython/index.html) by Jake VanderPlas)
+- [Numpy](https://jakevdp.github.io/PythonDataScienceHandbook/02.00-introduction-to-numpy.html) and [Pandas](https://jakevdp.github.io/PythonDataScienceHandbook/03.00-introduction-to-pandas.html) (from [Python Data Science Handbook](https://jakevdp.github.io/PythonDataScienceHandbook/index.html) by Jake VanderPlas)
+- [Data visualization overview](https://github.com/ContextLab/cs-for-psych/blob/master/slides/module_4/data_visualization.ipynb)
+- More details on plotting libraries: [Matplotlib](https://jakevdp.github.io/PythonDataScienceHandbook/04.00-introduction-to-matplotlib.html) and [Seaborn](https://jakevdp.github.io/PythonDataScienceHandbook/04.14-visualization-with-seaborn.html) (from [Python Data Science Handbook](https://jakevdp.github.io/PythonDataScienceHandbook/index.html) by Jake VanderPlas)
+- [Visualizing high-dimensional data with Hypertools](https://hypertools.readthedocs.io/en/latest/tutorials.html) (Source: [hypertools.readthedocs.io](https://hypertools.readthedocs.io/)
+- [Scikit-learn](https://jakevdp.github.io/PythonDataScienceHandbook/05.02-introducing-scikit-learn.html) (from [Python Data Science Handbook](https://jakevdp.github.io/PythonDataScienceHandbook/index.html) by Jake VanderPlas)
+- A (shallow) introduction to deep learning with [Tensorflow](https://www.tensorflow.org/tutorials/quickstart/beginner) (Source: [tensorflow.org](https://www.tensorflow.org/)) and [PyTorch](https://pytorch.org/tutorials/beginner/deep_learning_60min_blitz.html) (Source: [pytorch.org](https://pytorch.org/))
 - Assignment 4: Web scraping and data wrangling
 
 ## Module 5: Generating meaningful data
 - Experimental design
-- PsychoPy and OpenSesame
+- [PsychoPy](https://www.psychopy.org/gettingStarted.html) (Source: [psychopy.org](https://www.psychopy.org/)) and [OpenSesame](https://osdoc.cogsci.nl/3.2/tutorials/beginner/) (Source: [osdoc.cogsci.nl](https://osdoc.cogsci.nl/))
 - Assignment 5: 50-participant challenge
 
 ## Module 6: Interrogating your data
@@ -41,7 +44,7 @@
 - Permutation tests and Monte Carlo simulation
 - Regression
 - Dimensionality reduction
-- Introduction to Quail
+- [Introduction to Quail](https://cdl-quail.readthedocs.io/en/latest/tutorial.html) (Source: [cdl-quail.readthedocs.io](https://cdl-quail.readthedocs.io/))
 - Assignment 6: Report your experimental results
 
 ## Module 7: Models
@@ -54,7 +57,7 @@
 ## Module 8: Timeseries analysis
 - Autocorrelation
 - Frequency transforms
-- Dynamic correlations
+- [Dynamic correlations](https://timecorr.readthedocs.io/en/latest/tutorials.html) (Source: [timecorr.readthedocs.io](https://timecorr.readthedocs.io/))
 - Assignment 8: Working with brain data
 
 ## Module 9: Natural language processing
@@ -65,7 +68,7 @@
 
 ## Module 10: Advanced topics
 - Graphs and networks
-- High-order correlations
+- [High-order correlations with TimeCorr](https://timecorr.readthedocs.io/en/latest/tutorials.html) (Source: [timecorr.readthedocs.io](https://timecorr.readthedocs.io/))
 - Prediction
-- Writing your own library
+- [Writing your own library](https://github.com/ContextLab/CDL-tutorials/blob/master/packages/README.md) (Source: [CDL-tutorials](https://github.com/ContextLab/CDL-tutorials))
 - Assignment 10: Pip, pip, hooray!
