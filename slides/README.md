@@ -1,5 +1,8 @@
 # Table of contents
 
+## Module 0: Orientation
+- [Fostering a programming mindset](https://github.com/ContextLab/cs-for-psych/blob/master/slides/module_0/programming_mindset.md)
+
 ## Module 1: Course setup and Python basics
 
 - [Introduction and Overview](https://colab.research.google.com/github/ContextLab/cs-for-psych/blob/master/slides/module_1/introduction_and_overview.ipynb)
