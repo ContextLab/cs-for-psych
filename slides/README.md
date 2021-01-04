@@ -1,4 +1,5 @@
 # Table of contents
+0. [Orientation](#orientation)
 1. [Course setup and Python basics](#module-1-course-setup-and-python-basics)
 2. [Beyond the basics](#module-2-beyond-the-basics)
 3. [Find your inner hacker](#module-3-find-your-inner-hacker)
@@ -11,6 +12,9 @@
 10. [Advanced topics](#module-10-advanced-topics)
 
 ## Orientation
+
+**Start here!**  The materials for each module below are organized sequentially.  Work your way from module to module (and from top to bottom within each module).  Take notes on questions, comments, concerns, etc. so that you can bring them up for discussion during our class meetings.  Several items are marked as optional; they may be skipped if desired, but they are included for students who wish to gain additional exposure to the material.
+
 - [Welcome message](https://youtu.be/UjHUfUCpTQU)
 - [Fostering a programming mindset](https://github.com/ContextLab/cs-for-psych/blob/master/slides/module_0/programming_mindset.md)
 
@@ -18,7 +22,7 @@
 
 - [Introduction and Overview](https://colab.research.google.com/github/ContextLab/cs-for-psych/blob/master/slides/module_1/introduction_and_overview.ipynb)
 - [Introduction to Jupyter Notebooks and Python](https://colab.research.google.com/github/ContextLab/cs-for-psych/blob/master/slides/module_1/intro_to_python.ipynb)
-- [Assignment 1: Hello, world!](https://github.com/ContextLab/psyc32-hello-world) [[Accept assignment](https://classroom.github.com/a/rw4gMFGJ)]
+- [Assignment 1: Hello, world!](https://github.com/ContextLab/psyc32-hello-world) [[Accept assignment](https://classroom.github.com/a/xjc-u-1F)]
 
 ## Module 2: Beyond the basics
 - [Interactive programs](https://colab.research.google.com/github/ContextLab/cs-for-psych/blob/master/slides/module_2/interactive_programming.ipynb)
@@ -36,12 +40,12 @@
   - [Towers of Hanoi](https://drive.google.com/file/d/15SEWU23_iQD80Vs5vbkefdyiegnWoTyO/view?usp=sharing)
 - Whirlwind tour of searching, sorting, and data structures (source: [Hany Farid's *Learn to Code in Python* course](https://farid.berkeley.edu/downloads/tutorials/learnPython/)):
   - [Linear and binary search](https://drive.google.com/file/d/1EukvYAyuyVnMJoYJGEO-qF7f2oy2jroX/view?usp=sharing)
-  - Sorting:
+  - Sorting (**optional**):
     - [Selection sort](https://drive.google.com/file/d/1LahEi_vWr1U7gWFNT4SwAh1tzAc8gXn-/view?usp=sharing)
     - [Insertion sort](https://drive.google.com/file/d/13BSt9rPYvd1txaXqgHPvM0-CA2tHqQEm/view?usp=sharing)
     - [Merge sort](https://drive.google.com/file/d/1nrzVsPfblxft36pc44M3TrVqDaHsnCd3/view?usp=sharing)
     - [Quick sort](https://drive.google.com/file/d/1NJWiskxYLYL6F4i_-wjDQU59vhdYzIT4/view?usp=sharing)
-  - Data structures :
+  - Data structures (**optional**):
     - [Linked lists](https://drive.google.com/file/d/1pdff_xyC8VSU_QX8_POLNlo88Wf317Sx/view?usp=sharing) (note: you may find it useful to view [this video](https://drive.google.com/file/d/1bGmFBsp7-kqSPcu1j2hXMM2GgZ7WiULE/view?usp=sharing) first)
     - [Doubly linked lists](https://drive.google.com/file/d/1WQ957ItVBXgUovedipVywUz8QNY1neLP/view?usp=sharing)
     - [Hashing](https://drive.google.com/file/d/1DYNmUGr2mnaoflaWAecdN0aYRl5HjBsd/view?usp=sharing) (note: you may find it useful to view [this video](https://drive.google.com/file/d/1yTw3wdLTHcsQkjnwwCb9FZp3PPf_xtZu/view?usp=sharing) first)
@@ -72,7 +76,7 @@
 
 ## Module 5: Generating meaningful data
 - Experimental design
-- [PsychoPy](https://www.psychopy.org/gettingStarted.html) (Source: [psychopy.org](https://www.psychopy.org/)) and [OpenSesame](https://osdoc.cogsci.nl/3.2/tutorials/beginner/) (Source: [osdoc.cogsci.nl](https://osdoc.cogsci.nl/))
+- **Optional:** [PsychoPy](https://www.psychopy.org/gettingStarted.html) (Source: [psychopy.org](https://www.psychopy.org/)) and [OpenSesame](https://osdoc.cogsci.nl/3.2/tutorials/beginner/) (Source: [osdoc.cogsci.nl](https://osdoc.cogsci.nl/))
 - jsPsych
   - [Basics](https://www.jspsych.org/tutorials/hello-world/) (source: [jspsych.org](https://www.jspsych.org/))
   - [Simple reaction time task](https://www.jspsych.org/tutorials/rt-task/) (source: [jspsych.org](https://www.jspsych.org/))
