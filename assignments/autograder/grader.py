@@ -117,31 +117,6 @@ def notebook_to_module(target):
     
     return submission
 
-def from_str(s):
-    try:
-        if s is np.nan:
-            return ''
-    except:
-        pass
-    
-    try:
-        if s is None:
-            return ''
-    except:
-        pass
-    
-    try:
-        if len(s) == 0:
-            return ''
-    except:
-        pass
-    
-    try:
-        s = ast.literal_eval(s)
-        if type(s) == str:
-            s = "'" + s + "'"
-    except:
-        return s
 
 def grade(x, rubric):    
     if type(rubric) == list:
@@ -161,10 +136,17 @@ def grade(x, rubric):
     for i in range(r.shape[0]):
         next_test = {}
         if r.loc[i]['function'] == 'identity':
-            next_test['cmd'] = f"x.{r.loc[i]['input']} == {r.loc[i]['solution']}"
+            next_test['cmd'] = f"x.{r.loc[i]['args']} == {r.loc[i]['solution']}"
             next_test['target'] = True
         else:
-            next_test['cmd'] = f"x.{r.loc[i]['function']}({r.loc[i]['input']})"
+            r.at[i, 'args'] = [r.loc[i]['args']]
+            
+            if type(r.loc[i]['kwargs']) != dict:
+                next_kwargs = '{}'
+            else:
+                next_kwargs = r.loc[i]['kwargs']
+            
+            next_test['cmd'] = f"x.{r.loc[i]['function']}(*{r.loc[i]['args']}, **{next_kwargs})"
             next_test['target'] = eval(f"{r.loc[i]['solution']}")
         next_test['points'] = float(r.loc[i]['points'])
         next_test['rubric'] = rubric
