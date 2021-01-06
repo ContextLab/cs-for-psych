@@ -10,7 +10,6 @@ import types
 from IPython import get_ipython
 from nbformat import read
 from IPython.core.interactiveshell import InteractiveShell
-from importlib import reload
 
 
 
@@ -111,21 +110,12 @@ def extract_assignment(dir):
 def get_students(submissions_dir):
     return [os.path.split(g)[1] for g in glob(os.path.join(submissions_dir, '*'))]
 
-def convert_to_script(target):
-    if 'submission' in sys.modules:
-        sys.modules.pop('submission')
+def notebook_to_module(target):
+    if target in sys.modules:
+        sys.modules.pop(target)
     exec(f'import {target} as submission', globals())
-    # script_already_exists = os.path.exists(target + '.py')
-    # if script_already_exists:
-    #     os.renames(target + '.py', target + '.py.BACKUP')
-    # 
-    # os.system(f'ipython nbconvert --to python {target}.ipynb');
-    # 
-    # if 'submission' in sys.modules:
-    #     sys.modules.pop('submission')
-    # 
-    # exec(f'import {target} as submission', globals())    
-    return submission#, script_already_exists
+    
+    return submission
 
 def from_str(s):
     try:
@@ -244,10 +234,3 @@ def report(passed, failed, outfile=None, quiet=False):
 def grade_assignment(submission, rubrics, outfile=None, quiet=False):
     passed, failed = grade(submission, rubrics)
     return report(passed, failed, outfile=outfile, quiet=quiet)
-
-def clean_up(target, script_already_exists):
-    os.remove(target + '.py')
-    if script_already_exists:
-        os.renames(target + '.py.BACKUP', target + '.py')
-
-
