@@ -170,7 +170,7 @@ def grade(x, rubric):
         next_test['rubric'] = rubric
         
         try:
-            next_test['response'] = eval(next_test['cmd'])            
+            next_test['response'] = eval(next_test['cmd'])   
         except:
             next_test['response'] = None        
         try:            
