@@ -94,8 +94,7 @@ class NotebookFinder(object):
             # lists aren't hashable
             key = os.path.sep.join(path)
 
-        if key not in self.loaders:
-            self.loaders[key] = NotebookLoader(path)
+        self.loaders[key] = NotebookLoader(path)
         return self.loaders[key]
 
 sys.meta_path.append(NotebookFinder())
@@ -113,6 +112,8 @@ def get_students(submissions_dir):
     return [os.path.split(g)[1] for g in glob(os.path.join(submissions_dir, '*'))]
 
 def convert_to_script(target):
+    if 'submission' in sys.modules:
+        sys.modules.pop('submission')
     exec(f'import {target} as submission', globals())
     # script_already_exists = os.path.exists(target + '.py')
     # if script_already_exists:
