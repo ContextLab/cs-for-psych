@@ -7,7 +7,7 @@ This repository contains course materials for the Dartmouth Course [Introduction
 ## A note about this Open Course
 This course is taught as an *Open Course*, meaning that the course is designed from the ground up to be shareable and freely accessible to anyone.  All code for this course is written in [Python](https://www.python.org/) and most of the material is organized in [Jupyter notebooks](http://jupyter.org/).
 
-Feel free to follow along with this course, do the assignments, post questions and/or issues to this repository or Gitter, suggest changes, etc.  However, I won't formally evaluate your submitted work unless you are a Dartmouth undergraduate student currently enrolled in PSYC 132.
+Feel free to follow along with this course, do the assignments, post questions and/or issues to this repository or Gitter, suggest changes, etc.  However, I won't formally evaluate your submitted work unless you are a Dartmouth student currently enrolled in PSYC 132.
 
 If you are a course instructor teaching overlapping material, feel free to borrow any materials used in this course!  If you directly copy (or "draw heavy inspiration from") the materials, I would appreciate a citation (e.g., a pointer to this repository).  I'd also love to hear from you about how you're using this resource!
 
