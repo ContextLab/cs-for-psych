@@ -139,7 +139,7 @@ def grade(x, rubric):
             next_test['cmd'] = f"x.{r.loc[i]['args']} == {r.loc[i]['solution']}"
             next_test['target'] = True
         else:
-            r.at[i, 'args'] = [eval(f"{r.loc[i]['args']}")]
+            r.at[i, 'args'] = eval(f"{r.loc[i]['args']}")
             
             if type(r.loc[i]['kwargs']) != dict:
                 next_kwargs = '{}'
