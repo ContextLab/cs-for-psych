@@ -60,7 +60,7 @@
 - Unit tests
 - Optimization
 - Writing maintainable and shareable code
-- [Assignment 3: ELIZA](https://github.com/ContextLab/psyc32-eliza) [[Accept assignment](https://classroom.github.com/a/7b99w_qT)]
+- [Assignment 3: ELIZA](https://github.com/ContextLab/psyc32-eliza) [[Accept assignment](https://classroom.github.com/a/05_59FMz)]
 
 ## Module 4: External libraries
 - [Modules and Packages](https://jakevdp.github.io/WhirlwindTourOfPython/13-modules-and-packages.html) (from [Whirlwind Tour of Python](https://jakevdp.github.io/WhirlwindTourOfPython/index.html) by Jake VanderPlas)
