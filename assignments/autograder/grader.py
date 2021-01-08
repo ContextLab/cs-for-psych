@@ -10,10 +10,8 @@ import types
 from IPython import get_ipython
 from nbformat import read
 from IPython.core.interactiveshell import InteractiveShell
-
-
-
-
+from configparser import ConfigParser
+import plotly.express as px
 
 ###########
 #source: https://jupyter-notebook.readthedocs.io/en/stable/examples/Notebook/Importing%20Notebooks.html
@@ -108,7 +106,8 @@ def extract_assignment(dir):
     return assignment.lower()
 
 def get_students(submissions_dir):
-    return [os.path.split(g)[1] for g in glob(os.path.join(submissions_dir, '*'))]
+    contents = [os.path.split(g)[1] for g in glob(os.path.join(submissions_dir, '*'))]
+    return [c for c in contents if os.path.isdir(os.path.join(submissions_dir, c))]
 
 def notebook_to_module(target):
     if target in sys.modules:
@@ -216,3 +215,132 @@ def report(passed, failed, outfile=None, quiet=False):
 def grade_assignment(submission, rubrics, outfile=None, quiet=False):
     passed, failed = grade(submission, rubrics)
     return report(passed, failed, outfile=outfile, quiet=quiet)
+
+def commit_and_push(submissions_dir, students, root=None, private_dir=None, debug=True):
+    feedback_branch = 'feedback'
+    assignment = extract_assignment(submissions_dir)
+    
+    if root is None:
+        root = os.path.abspath(os.path.join('..', '..', '..'))
+    if private_dir is None:
+        private_dir = os.path.join(root, 'teaching-tools', 'cs-for-psych', 'assignments')
+    
+    #set up git
+    gitconfig = ConfigParser()
+    gitconfig.read(os.path.join(private_dir, 'autograder', 'git.ini'))
+
+    os.system(f"git config --global user.name '{gitconfig['github']['user.name']}'");
+    os.system(f"git config --global user.email '{gitconfig['github']['user.email']}'");
+    
+    def commit_and_push_single_student(s, debug=True):
+        mydir = os.path.join(submissions_dir, s)
+        os.chdir(mydir)
+        
+        if debug:
+            token = '<TOKEN>'
+        else:
+            token = gitconfig['github']['token']
+        
+        cmds = [f"git remote add {s} https://{token}@github.com/ContextLab/{assignment}-{s}.git",
+                f'git fetch {s}',
+                f'git checkout -b {feedback_branch}',
+                'git add report.txt', 
+                'git commit -a -m "added autograder report"',
+                f'git push {s} HEAD:{feedback_branch}']
+        if debug:
+            print(f'Simulating commands (running from directory: {mydir})')
+            [print('\t' + c) for c in cmds]
+            print('\n')
+        else:
+            [os.system(c) for c in cmds]
+    
+    start_dir = os.getcwd()
+    [commit_and_push_single_student(s, debug=debug) for s in students]
+    os.chdir(start_dir)
+
+def autograde(submissions_dir, root=None, plot_it=False, grading_repo=None, public_checks_dir=None, private_checks_dir=None):    
+    if root is None:
+        root = os.path.abspath(os.path.join('..', '..', '..'))
+    if grading_repo is None:
+        grading_repo = os.path.join(root, 'cs-for-psych', 'assignments', 'autograder')
+    if public_checks_dir is None:
+        public_checks_dir = os.path.join(root, 'cs-for-psych', 'assignments')
+    if private_checks_dir is None:
+        private_checks_dir = os.path.join(root, 'teaching-tools', 'cs-for-psych', 'assignments')
+    
+    #set up git
+    gitconfig = ConfigParser()
+    gitconfig.read(os.path.join(private_checks_dir, 'autograder', 'git.ini'))
+
+    os.system(f"git config --global user.name '{gitconfig['github']['user.name']}'");
+    os.system(f"git config --global user.email '{gitconfig['github']['user.email']}'");
+    
+    #get assignment and rubrics
+    assignment = extract_assignment(submissions_dir)
+    public_rubric = os.path.join(public_checks_dir, assignment, 'public_rubric.xls')
+    private_rubric = os.path.join(private_checks_dir, assignment, 'private_rubric.xls')
+    rubrics = [public_rubric, private_rubric]
+    
+    #autograde all students
+    students = get_students(submissions_dir)
+    grades = [autograde_notebooks(submissions_dir, rubrics, s) for s in students]
+    grades = pd.DataFrame(zip(students, grades), columns=['Student', 'Score']).set_index('Student')
+    
+    fig = px.histogram(grades, x='Score', range_x=[0, 100], nbins=10, histnorm='percent');
+    fig.update_layout(yaxis_title='Percentage of students');
+    fig.write_image(os.path.join(submissions_dir, 'grade_summary.pdf'));
+    
+    return grades
+
+def autograde_notebooks(submissions_dir, rubrics, student):  
+    def grade_notebook(notebook_fname, outfile=None, quiet=False):
+        basedir, notebook = os.path.split(notebook_fname)        
+        target = notebook[:-6]
+        
+        bad_chars = [' ', '-', ',', '!', '?', '.']
+        modified_target = target
+        for b in bad_chars:
+            if b in modified_target:
+                modified_target = modified_target.replace(b, '_')
+        
+        print(f'grading: {modified_target}.ipynb')
+        clean_up = False
+        if modified_target != target:
+            if os.path.exists(os.path.join(basedir, modified_target)):
+                clean_up = True
+                os.rename(os.path.join(basedir, modified_target + '.ipynb'), os.path.join(basedir, modified_target + '.ipynb.BACKUP'))
+            os.rename(os.path.join(basedir, target + '.ipynb'), os.path.join(basedir, modified_target + '.ipynb'))
+        
+        if 'submission' in sys.modules:
+            print('pop!')
+
+            sys.modules.pop('submission')
+        
+        try:
+            submission = notebook_to_module(modified_target)            
+            score = grade_assignment(submission, rubrics, quiet=quiet, outfile=outfile)
+        except:
+            if outfile is not None:
+                with open(outfile, 'w') as fd:
+                    print('Assignment could not be autograded: notebook failed to run!', file=fd)
+            score = 0.0
+                        
+        if modified_target != target:
+            os.rename(os.path.join(basedir, modified_target + '.ipynb'), os.path.join(basedir, target + '.ipynb'))
+        
+        if clean_up:
+            os.rename(os.path.join(basedir, modified_target + '.ipynb.BACKUP'), os.path.join(basedir, modified_target + '.ipynb'))
+        
+        return score
+    
+    start_dir = os.getcwd()    
+    mydir = os.path.join(submissions_dir, student)
+    
+    os.chdir(mydir)
+    notebooks = glob(os.path.join('.', '*.ipynb'))
+    grades = [grade_notebook(n, quiet=True) for n in notebooks]
+    
+    best_notebook = notebooks[np.where(np.array(grades) == np.max(grades))[0][0]]
+    best_grade = grade_notebook(best_notebook, quiet=True, outfile='report.txt')    
+    os.chdir(start_dir)
+    return best_grade
