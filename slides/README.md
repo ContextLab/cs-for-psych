@@ -1,4 +1,5 @@
 # Table of contents
+
 0. [Orientation](#orientation)
 1. [Course setup and Python basics](#module-1-course-setup-and-python-basics)
 2. [Beyond the basics](#module-2-beyond-the-basics)
@@ -11,7 +12,7 @@
 9. [Natural language processing](#module-9-natural-language-processing)
 10. [Advanced topics](#module-10-advanced-topics)
 
-## Orientation
+# Orientation
 
 **Start here!**  The materials for each module below are organized sequentially.  Work your way from module to module (and from top to bottom within each module).  Take notes on questions, comments, concerns, etc. so that you can bring them up for discussion during our class meetings.  Several items are marked as optional; they may be skipped if desired, but they are included for students who wish to gain additional exposure to the material.
 
@@ -19,13 +20,13 @@
 - [Lecture 1 recording (W21)](https://youtu.be/XPsoY9R7dVs): orientation, overview, and "the sandwich exercise"
 - [Fostering a programming mindset](https://github.com/ContextLab/cs-for-psych/blob/master/slides/module_0/programming_mindset.md)
 
-## Module 1: Course setup and Python basics
+# Module 1: Course setup and Python basics
 
 - [Introduction and Overview](https://colab.research.google.com/github/ContextLab/cs-for-psych/blob/master/slides/module_1/introduction_and_overview.ipynb)
 - [Introduction to Jupyter Notebooks and Python](https://colab.research.google.com/github/ContextLab/cs-for-psych/blob/master/slides/module_1/intro_to_python.ipynb)
 - [Assignment 1: Hello, world!](https://github.com/ContextLab/psyc32-hello-world) [[Accept assignment](https://classroom.github.com/a/xjc-u-1F)]
 
-## Module 2: Beyond the basics
+# Module 2: Beyond the basics
 - [Interactive programs](https://colab.research.google.com/github/ContextLab/cs-for-psych/blob/master/slides/module_2/interactive_programming.ipynb)
 - [Control flow and order of operations](https://colab.research.google.com/github/ContextLab/cs-for-psych/blob/master/slides/module_2/control_flow_and_ooo.ipynb)
 - [Dictionaries and classes](https://colab.research.google.com/github/ContextLab/cs-for-psych/blob/master/slides/module_2/dictionaries_and_classes.ipynb)
@@ -33,7 +34,7 @@
 - [Writing Pythonic code: list comprehensions, generators, and iterators](https://colab.research.google.com/github/ContextLab/cs-for-psych/blob/master/slides/module_2/pythonic_code.ipynb)
 - [Assignment 2: Chess puzzle solver](https://github.com/ContextLab/psyc32-n-queens) [[Accept assignment](https://classroom.github.com/a/nHf5amef)]
 
-## Module 3: Find your inner hacker
+# Module 3: Find your inner hacker
 - Recursion (source: [Hany Farid's *Learn to Code in Python* course](https://farid.berkeley.edu/downloads/tutorials/learnPython/)):
   - [Factorial](https://drive.google.com/file/d/1n2vX-cH7JCAEX7AYCgVbBux6V-xJ52wd/view)
   - [List reversal](https://drive.google.com/file/d/1jBbKrTOn3KmipNOWWcmSv601hkJeTizp/view?usp=sharing)
@@ -64,7 +65,7 @@
 - [Writing maintainable and shareable code](https://towardsdatascience.com/the-ultimate-guide-to-writing-better-python-code-1362a1209e5a) (Source: [towardsdatascience](https://towardsdatascience.com))
 - [Assignment 3: ELIZA](https://github.com/ContextLab/psyc32-eliza) [[Accept assignment](https://classroom.github.com/a/05_59FMz)]
 
-## Module 4: External libraries
+# Module 4: External libraries
 - [Modules and Packages](https://jakevdp.github.io/WhirlwindTourOfPython/13-modules-and-packages.html) (from [Whirlwind Tour of Python](https://jakevdp.github.io/WhirlwindTourOfPython/index.html) by Jake VanderPlas)
 - [Numpy](https://jakevdp.github.io/PythonDataScienceHandbook/02.00-introduction-to-numpy.html) and [Pandas](https://jakevdp.github.io/PythonDataScienceHandbook/03.00-introduction-to-pandas.html) (from [Python Data Science Handbook](https://jakevdp.github.io/PythonDataScienceHandbook/index.html) by Jake VanderPlas)
 - [Data visualization overview](https://github.com/ContextLab/cs-for-psych/blob/master/slides/module_4/data_visualization.ipynb)
@@ -74,48 +75,52 @@
 - A (shallow) introduction to deep learning with [Tensorflow](https://www.tensorflow.org/tutorials/quickstart/beginner) (source: [tensorflow.org](https://www.tensorflow.org/)) and [PyTorch](https://pytorch.org/tutorials/beginner/deep_learning_60min_blitz.html) (Source: [pytorch.org](https://pytorch.org/))
 - [PyTest](https://github.com/ContextLab/CDL-tutorials/tree/master/testing) (Source: [CDL tutorials](https://github.com/ContextLab/CDL-tutorials))
   - [More in-depth PyTest tutorial](https://www.youtube.com/watch?v=LX2ksGYXJ80) (source: [SciPy 2019 tutorials](https://www.youtube.com/redirect?v=LX2ksGYXJ80&redir_token=QUFFLUhqbFVjTkw0a3djNGx3SnlrdlRsOFVteDU0cmpYd3xBQ3Jtc0tsWkEyeXpHODd4SXJyRWpXUHlOcFhTSEVXUGt4SFpUUmpQOW5sT05GOGVxeTRaaUFQZi15OXFnV3ozTHh4ZWNoSHU5V0lkd0E0UUo2THZ5TnV3YVdvQWxlelVHZW1QYlFlN1JfbGFVZEJDRGdQX0N6MA%3D%3D&event=video_description&q=https%3A%2F%2Fwww.scipy2019.scipy.org%2Ftutorial-participant-instructions))
-- Assignment 4: Web scraping and data wrangling
+- Assignment 4: Web scraping and data wrangling [Accept assignment]
 
-## Module 5: Collecting data
-- **Optional:** [PsychoPy](https://www.psychopy.org/gettingStarted.html) (Source: [psychopy.org](https://www.psychopy.org/)) and [OpenSesame](https://osdoc.cogsci.nl/3.2/tutorials/beginner/) (Source: [osdoc.cogsci.nl](https://osdoc.cogsci.nl/))
-- jsPsych
+# Module 5: Collecting data
+- jsPsych (note: this is a [JavaScript](https://en.wikipedia.org/wiki/JavaScript) library, not a Python library.  As such, you may find it useful to go through a quick(ish) JavaScript tutorial like [this one](https://www.youtube.com/watch/W6NZfCO5SIk) before going through the jsPsych tutorials below.)
   - [Basics](https://www.jspsych.org/tutorials/hello-world/) (source: [jspsych.org](https://www.jspsych.org/))
   - [Simple reaction time task](https://www.jspsych.org/tutorials/rt-task/) (source: [jspsych.org](https://www.jspsych.org/))
   - [Sample experiments from Experiment Factory](https://expfactory.github.io/)
-- Assignment 5: 50-participant challenge!
+- **Optional:** [PsychoPy](https://www.psychopy.org/gettingStarted.html) (Source: [psychopy.org](https://www.psychopy.org/)) and [OpenSesame](https://osdoc.cogsci.nl/3.2/tutorials/beginner/) (Source: [osdoc.cogsci.nl](https://osdoc.cogsci.nl/))
+- Assignment 5: 50-participant challenge! [Accept assignment]
 
-## Module 6: Interrogating your data
-- Basic statistical tests
+# Module 6: Interrogating your data
+- [Basic statistical tests using Pingouin](https://pingouin-stats.org/) (Source: [pingouin-stats.org](https://pingouin-stats.org/))
 - Permutation tests and Monte Carlo simulation
 - Regression
 - Dimensionality reduction
 - [Introduction to Quail](https://cdl-quail.readthedocs.io/en/latest/tutorial.html) (Source: [cdl-quail.readthedocs.io](https://cdl-quail.readthedocs.io/))
-- Assignment 6: Report your experimental results
+- Assignment 6: Report your experimental results [Accept assignment]
 
-## Module 7: Models
+# Module 7: Models
+- What *is* a model?
+- [Ten simple rules for the computational modeling of behavioral data](https://elifesciences.org/articles/49547) (source: [eLife](https://elifesciences.org) article by Robert Wilson and Anne Collins)
 - Building your first model
 - Model fitting
 - Evaluating and comparing models
+  - **Optional:** [Build, compute, critique, repeat: data analysis with latent variable models](https://oar.princeton.edu/jspui/bitstream/88435/pr12b6p/1/Blei%20-%20Build%2C%20Compute%2C%20Critique%2C%20Repeat.pdf) (source: [Annual Review of Statistics and its Application](https://www.annualreviews.org/doi/full/10.1146/annurev-statistics-022513-115657) article by [David Blei](http://www.cs.columbia.edu/~blei/))
 - Example models: reinforcement learning, temporal context model
-- Assignment 7: Model your data
+- **Optional:** [this repository](https://github.com/brendenlake/CCM-site) contains materials and assignments for NYU's excellent Computational Cognitive Modeling course (source: [Brenden Lake](https://cims.nyu.edu/~brenden/) and [Todd Gureckis](http://psych.nyu.edu/gureckis/)).  Pick and choose whatever seems interesting to you!
+- Assignment 7: Model your data [Accept assignment]
 
-## Module 8: Timeseries analysis
+# Module 8: Timeseries analysis
 - Working with brain data:
   - [Analyzing neural responses to naturalistic data](http://naturalistic-data.org/intro) (Source: [Organization for Human Brain Mapping](https://www.humanbrainmapping.org) tutorial)
   - [DartBrains](https://dartbrains.org) (Source: [Luke Chang](https://cosanlab.com))
   - [BrainIAK Aperture Tutorials](https://github.com/brainiak/brainiak-aperture) (Source: [Brain Imaging Analysis Kit](https://brainiak.org))
   - [MNE Tutorials](https://mne.tools/dev/auto_tutorials/index.html) (Source: [MNE Python](https://mne.tools/dev/index.html))
 - [SkTime User Guide](https://sktime.org/en/latest/user_guite.html) (Source: [The Alan Turing Institute](https://www.turing.ac.uk/))
-- Assignment 8: Working with brain data
+- Assignment 8: Working with brain data [Accept assignment]
 
-## Module 9: Natural language processing
+# Module 9: Natural language processing
 - Tokenization, stemming, and lemmatization and parse trees
 - Word embedding models
 - Context-sensitive text models
-- Assignment 9: Thought trajectories
+- Assignment 9: Thought trajectories [Accept assignment]
 
-## Module 10: Advanced topics
+# Module 10: Advanced topics
 - Graphs and networks
 - [High-order correlations with TimeCorr](https://timecorr.readthedocs.io/en/latest/tutorials.html) (Source: [timecorr.readthedocs.io](https://timecorr.readthedocs.io/))
 - [Writing your own library](https://github.com/ContextLab/CDL-tutorials/blob/master/packages/README.md) (Source: [CDL-tutorials](https://github.com/ContextLab/CDL-tutorials))
-- Assignment 10: Pip, pip, hooray!
+- Assignment 10: Pip, pip, hooray! [Accept assignment]
