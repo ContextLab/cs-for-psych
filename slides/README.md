@@ -100,9 +100,12 @@
 - Assignment 7: Model your data
 
 ## Module 8: Timeseries analysis
-- Autocorrelation
-- Frequency transforms
-- [Dynamic correlations](https://timecorr.readthedocs.io/en/latest/tutorials.html) (Source: [timecorr.readthedocs.io](https://timecorr.readthedocs.io/))
+- Working with brain data:
+  - [Analyzing neural responses to naturalistic data](http://naturalistic-data.org/intro) (Source: [Organization for Human Brain Mapping](https://www.humanbrainmapping.org) tutorial)
+  - [DartBrains](https://dartbrains.org) (Source: [Luke Chang](https://cosanlab.com))
+  - [BrainIAK Aperture Tutorials](https://github.com/brainiak/brainiak-aperture) (Source: [Brain Imaging Analysis Kit](https://brainiak.org))
+  - [MNE Tutorials](https://mne.tools/dev/auto_tutorials/index.html) (Source: [MNE Python](https://mne.tools/dev/index.html))
+- [SkTime User Guide](https://sktime.org/en/latest/user_guite.html) (Source: [The Alan Turing Institute](https://www.turing.ac.uk/))
 - Assignment 8: Working with brain data
 
 ## Module 9: Natural language processing
@@ -114,6 +117,5 @@
 ## Module 10: Advanced topics
 - Graphs and networks
 - [High-order correlations with TimeCorr](https://timecorr.readthedocs.io/en/latest/tutorials.html) (Source: [timecorr.readthedocs.io](https://timecorr.readthedocs.io/))
-- Prediction
 - [Writing your own library](https://github.com/ContextLab/CDL-tutorials/blob/master/packages/README.md) (Source: [CDL-tutorials](https://github.com/ContextLab/CDL-tutorials))
 - Assignment 10: Pip, pip, hooray!
