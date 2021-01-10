@@ -56,11 +56,12 @@
       - [Breadth-first search](https://drive.google.com/file/d/1tRRVLJyeuemjMNMyS690lz4IPpYB-IWv/view?usp=sharing)
     - [Queues and stacks](https://drive.google.com/file/d/13fnBkyRSHuTWwVkJuOZuXL072rrHl5tC/view?usp=sharing)
     - [Binary search trees](https://drive.google.com/file/d/1LuGuXDga4OtbHfdAvQSoBseQmCBYNMkh/view?usp=sharing)
-- Lambda functions, and mapping
-- Debugging
-- Unit tests
-- Optimization
-- Writing maintainable and shareable code
+- [Lambda functions](https://realpython.com/python-lambda/) (Source: [realpython.com](https://realpython.com))
+- [Map, filter, reduce](https://www.learnpython.org/en/Map,_Filter,_Reduce) (Source: [https://learnpython.org])
+- [Debugging in Google Colaboratory](https://colab.research.google.com/github/jakevdp/PythonDataScienceHandbook/blob/master/notebooks/01.06-Errors-and-Debugging.ipynb) (Source: [Python Data Science Handbook](https://jakevdp.github.io/PythonDataScienceHandbook/index.html) by Jake VanderPlas)
+- [Unit tests](https://realpython.com/python-testing/) (Source: [realpython.com](https://realpython.com))
+- [Optimizing your code](https://towardsdatascience.com/optimizing-your-python-code-156d4b8f4a29) (Source: [towardsdatascience](https://towardsdatascience.com))
+- [Writing maintainable and shareable code](https://towardsdatascience.com/the-ultimate-guide-to-writing-better-python-code-1362a1209e5a) (Source: [towardsdatascience](https://towardsdatascience.com))
 - [Assignment 3: ELIZA](https://github.com/ContextLab/psyc32-eliza) [[Accept assignment](https://classroom.github.com/a/05_59FMz)]
 
 ## Module 4: External libraries
