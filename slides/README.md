@@ -4,7 +4,7 @@
 2. [Beyond the basics](#module-2-beyond-the-basics)
 3. [Find your inner hacker](#module-3-find-your-inner-hacker)
 4. [External libraries](#module-4-external-libraries)
-5. [Generating meaningful data](#module-5-generating-meaningful-data)
+5. [Collecting data](#module-5-collecting-data)
 6. [Interrogating your data](#module-6-interrogating-your-data)
 7. [Models](#module-7-models)
 8. [Timeseries analysis](#module-8-timeseries-analysis)
@@ -76,8 +76,7 @@
   - [More in-depth PyTest tutorial](https://www.youtube.com/watch?v=LX2ksGYXJ80) (source: [SciPy 2019 tutorials](https://www.youtube.com/redirect?v=LX2ksGYXJ80&redir_token=QUFFLUhqbFVjTkw0a3djNGx3SnlrdlRsOFVteDU0cmpYd3xBQ3Jtc0tsWkEyeXpHODd4SXJyRWpXUHlOcFhTSEVXUGt4SFpUUmpQOW5sT05GOGVxeTRaaUFQZi15OXFnV3ozTHh4ZWNoSHU5V0lkd0E0UUo2THZ5TnV3YVdvQWxlelVHZW1QYlFlN1JfbGFVZEJDRGdQX0N6MA%3D%3D&event=video_description&q=https%3A%2F%2Fwww.scipy2019.scipy.org%2Ftutorial-participant-instructions))
 - Assignment 4: Web scraping and data wrangling
 
-## Module 5: Generating meaningful data
-- Experimental design
+## Module 5: Collecting data
 - **Optional:** [PsychoPy](https://www.psychopy.org/gettingStarted.html) (Source: [psychopy.org](https://www.psychopy.org/)) and [OpenSesame](https://osdoc.cogsci.nl/3.2/tutorials/beginner/) (Source: [osdoc.cogsci.nl](https://osdoc.cogsci.nl/))
 - jsPsych
   - [Basics](https://www.jspsych.org/tutorials/hello-world/) (source: [jspsych.org](https://www.jspsych.org/))
