@@ -35,12 +35,12 @@
 - [Assignment 2: Chess puzzle solver](https://github.com/ContextLab/psyc32-n-queens) [[Accept assignment](https://classroom.github.com/a/nHf5amef)]
 
 # Module 3: Find your inner hacker
-- Recursion (source: [Hany Farid's *Learn to Code in Python* course](https://farid.berkeley.edu/downloads/tutorials/learnPython/)):
+- Recursion (Source: [Hany Farid's *Learn to Code in Python* course](https://farid.berkeley.edu/downloads/tutorials/learnPython/)):
   - [Factorial](https://drive.google.com/file/d/1n2vX-cH7JCAEX7AYCgVbBux6V-xJ52wd/view)
   - [List reversal](https://drive.google.com/file/d/1jBbKrTOn3KmipNOWWcmSv601hkJeTizp/view?usp=sharing)
   - [List sum](https://drive.google.com/file/d/1kFyKqe5OIiJZ6WWS_JypRF5xedcyijrp/view?usp=sharing) ([associated code](https://drive.google.com/file/d/1CCYpy7pThwP2FLGVBHdANEL1uF03Dnif/view?usp=sharing))
   - [Towers of Hanoi](https://drive.google.com/file/d/15SEWU23_iQD80Vs5vbkefdyiegnWoTyO/view?usp=sharing)
-- Whirlwind tour of searching, sorting, and data structures (source: [Hany Farid's *Learn to Code in Python* course](https://farid.berkeley.edu/downloads/tutorials/learnPython/)):
+- Whirlwind tour of searching, sorting, and data structures (Source: [Hany Farid's *Learn to Code in Python* course](https://farid.berkeley.edu/downloads/tutorials/learnPython/)):
   - [Linear and binary search](https://drive.google.com/file/d/1EukvYAyuyVnMJoYJGEO-qF7f2oy2jroX/view?usp=sharing)
   - Sorting (**optional**):
     - [Selection sort](https://drive.google.com/file/d/1LahEi_vWr1U7gWFNT4SwAh1tzAc8gXn-/view?usp=sharing)
@@ -70,17 +70,17 @@
 - [Numpy](https://jakevdp.github.io/PythonDataScienceHandbook/02.00-introduction-to-numpy.html) and [Pandas](https://jakevdp.github.io/PythonDataScienceHandbook/03.00-introduction-to-pandas.html) (from [Python Data Science Handbook](https://jakevdp.github.io/PythonDataScienceHandbook/index.html) by Jake VanderPlas)
 - [Data visualization overview](https://github.com/ContextLab/cs-for-psych/blob/master/slides/module_4/data_visualization.ipynb)
 - More details on plotting libraries: [Matplotlib](https://jakevdp.github.io/PythonDataScienceHandbook/04.00-introduction-to-matplotlib.html) and [Seaborn](https://jakevdp.github.io/PythonDataScienceHandbook/04.14-visualization-with-seaborn.html) (from [Python Data Science Handbook](https://jakevdp.github.io/PythonDataScienceHandbook/index.html) by Jake VanderPlas)
-- [Visualizing high-dimensional data with Hypertools](https://hypertools.readthedocs.io/en/latest/tutorials.html) (source: [hypertools.readthedocs.io](https://hypertools.readthedocs.io/))
+- [Visualizing high-dimensional data with Hypertools](https://hypertools.readthedocs.io/en/latest/tutorials.html) (Source: [hypertools.readthedocs.io](https://hypertools.readthedocs.io/))
 - [Scikit-learn](https://jakevdp.github.io/PythonDataScienceHandbook/05.02-introducing-scikit-learn.html) (from [Python Data Science Handbook](https://jakevdp.github.io/PythonDataScienceHandbook/index.html) by Jake VanderPlas)
-- A (shallow) introduction to deep learning with [Tensorflow](https://www.tensorflow.org/tutorials/quickstart/beginner) (source: [tensorflow.org](https://www.tensorflow.org/)) and [PyTorch](https://pytorch.org/tutorials/beginner/deep_learning_60min_blitz.html) (Source: [pytorch.org](https://pytorch.org/))
+- A (shallow) introduction to deep learning with [Tensorflow](https://www.tensorflow.org/tutorials/quickstart/beginner) (Source: [tensorflow.org](https://www.tensorflow.org/)) and [PyTorch](https://pytorch.org/tutorials/beginner/deep_learning_60min_blitz.html) (Source: [pytorch.org](https://pytorch.org/))
 - [PyTest](https://github.com/ContextLab/CDL-tutorials/tree/master/testing) (Source: [CDL tutorials](https://github.com/ContextLab/CDL-tutorials))
-  - [More in-depth PyTest tutorial](https://www.youtube.com/watch?v=LX2ksGYXJ80) (source: [SciPy 2019 tutorials](https://www.youtube.com/redirect?v=LX2ksGYXJ80&redir_token=QUFFLUhqbFVjTkw0a3djNGx3SnlrdlRsOFVteDU0cmpYd3xBQ3Jtc0tsWkEyeXpHODd4SXJyRWpXUHlOcFhTSEVXUGt4SFpUUmpQOW5sT05GOGVxeTRaaUFQZi15OXFnV3ozTHh4ZWNoSHU5V0lkd0E0UUo2THZ5TnV3YVdvQWxlelVHZW1QYlFlN1JfbGFVZEJDRGdQX0N6MA%3D%3D&event=video_description&q=https%3A%2F%2Fwww.scipy2019.scipy.org%2Ftutorial-participant-instructions))
+  - [More in-depth PyTest tutorial](https://www.youtube.com/watch?v=LX2ksGYXJ80) (Source: [SciPy 2019 tutorials](https://www.youtube.com/redirect?v=LX2ksGYXJ80&redir_token=QUFFLUhqbFVjTkw0a3djNGx3SnlrdlRsOFVteDU0cmpYd3xBQ3Jtc0tsWkEyeXpHODd4SXJyRWpXUHlOcFhTSEVXUGt4SFpUUmpQOW5sT05GOGVxeTRaaUFQZi15OXFnV3ozTHh4ZWNoSHU5V0lkd0E0UUo2THZ5TnV3YVdvQWxlelVHZW1QYlFlN1JfbGFVZEJDRGdQX0N6MA%3D%3D&event=video_description&q=https%3A%2F%2Fwww.scipy2019.scipy.org%2Ftutorial-participant-instructions))
 - Assignment 4: Web scraping and data wrangling [Accept assignment]
 
 # Module 5: Collecting data
 - jsPsych (note: this is a [JavaScript](https://en.wikipedia.org/wiki/JavaScript) library, not a Python library.  As such, you may find it useful to go through a quick(ish) JavaScript tutorial like [this one](https://www.youtube.com/watch/W6NZfCO5SIk) before going through the jsPsych tutorials below.)
-  - [Basics](https://www.jspsych.org/tutorials/hello-world/) (source: [jspsych.org](https://www.jspsych.org/))
-  - [Simple reaction time task](https://www.jspsych.org/tutorials/rt-task/) (source: [jspsych.org](https://www.jspsych.org/))
+  - [Basics](https://www.jspsych.org/tutorials/hello-world/) (Source: [jspsych.org](https://www.jspsych.org/))
+  - [Simple reaction time task](https://www.jspsych.org/tutorials/rt-task/) (Source: [jspsych.org](https://www.jspsych.org/))
   - [Sample experiments from Experiment Factory](https://expfactory.github.io/)
 - **Optional:** [PsychoPy](https://www.psychopy.org/gettingStarted.html) (Source: [psychopy.org](https://www.psychopy.org/)) and [OpenSesame](https://osdoc.cogsci.nl/3.2/tutorials/beginner/) (Source: [osdoc.cogsci.nl](https://osdoc.cogsci.nl/))
 - Assignment 5: 50-participant challenge! [Accept assignment]
@@ -90,18 +90,17 @@
 - Permutation tests and Monte Carlo simulation
 - Regression
 - Dimensionality reduction
-- [Introduction to Quail](https://cdl-quail.readthedocs.io/en/latest/tutorial.html) (Source: [cdl-quail.readthedocs.io](https://cdl-quail.readthedocs.io/))
 - Assignment 6: Report your experimental results [Accept assignment]
 
 # Module 7: Models
 - What *is* a model?
-- [Ten simple rules for the computational modeling of behavioral data](https://elifesciences.org/articles/49547) (source: [eLife](https://elifesciences.org) article by Robert Wilson and Anne Collins)
+- [Ten simple rules for the computational modeling of behavioral data](https://elifesciences.org/articles/49547) (Source: [eLife](https://elifesciences.org) article by [Robert Wilson](http://u.arizona.edu/~bob/) and [Anne Collins](https://www.ocf.berkeley.edu/~acollins/))
 - Building your first model
 - Model fitting
 - Evaluating and comparing models
-  - **Optional:** [Build, compute, critique, repeat: data analysis with latent variable models](https://oar.princeton.edu/jspui/bitstream/88435/pr12b6p/1/Blei%20-%20Build%2C%20Compute%2C%20Critique%2C%20Repeat.pdf) (source: [Annual Review of Statistics and its Application](https://www.annualreviews.org/doi/full/10.1146/annurev-statistics-022513-115657) article by [David Blei](http://www.cs.columbia.edu/~blei/))
+  - **Optional:** [Build, compute, critique, repeat: data analysis with latent variable models](https://oar.princeton.edu/jspui/bitstream/88435/pr12b6p/1/Blei%20-%20Build%2C%20Compute%2C%20Critique%2C%20Repeat.pdf) (Source: [Annual Review of Statistics and its Application](https://www.annualreviews.org/doi/full/10.1146/annurev-statistics-022513-115657) article by [David Blei](http://www.cs.columbia.edu/~blei/))
 - Example models: reinforcement learning, temporal context model
-- **Optional:** [this repository](https://github.com/brendenlake/CCM-site) contains materials and assignments for NYU's excellent Computational Cognitive Modeling course (source: [Brenden Lake](https://cims.nyu.edu/~brenden/) and [Todd Gureckis](http://psych.nyu.edu/gureckis/)).  Pick and choose whatever seems interesting to you!
+- **Optional:** [this repository](https://github.com/brendenlake/CCM-site) contains materials and assignments for NYU's excellent Computational Cognitive Modeling course (Source: [Brenden Lake](https://cims.nyu.edu/~brenden/) and [Todd Gureckis](http://psych.nyu.edu/gureckis/)).  Pick and choose whatever seems interesting to you!
 - Assignment 7: Model your data [Accept assignment]
 
 # Module 8: Timeseries analysis
