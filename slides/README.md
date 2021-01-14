@@ -24,7 +24,8 @@
 
 - [Introduction and Overview](https://colab.research.google.com/github/ContextLab/cs-for-psych/blob/master/slides/module_1/introduction_and_overview.ipynb)
 - [Introduction to Jupyter Notebooks and Python](https://colab.research.google.com/github/ContextLab/cs-for-psych/blob/master/slides/module_1/intro_to_python.ipynb)
-- [Lecture 2 recording (W21)](https://youtu.be/hDsJgkQdPWs)
+- [Lecture 2 recording (W21)](https://youtu.be/hDsJgkQdPWs): variables, operators, datatypes, functions, if/elif/else statements, for and while loops
+- [Lecture 3 recording (W21)](https://youtu.be/bT0HwegxHWQ): libraries, practice "string manipulation" problems
 - [Assignment 1: Hello, world!](https://github.com/ContextLab/psyc32-hello-world) [[Accept assignment](https://classroom.github.com/a/xjc-u-1F)]
 
 # Module 2: Beyond the basics
