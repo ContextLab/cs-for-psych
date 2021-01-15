@@ -31,6 +31,7 @@
 # Module 2: Beyond the basics
 - [Interactive programs](https://colab.research.google.com/github/ContextLab/cs-for-psych/blob/master/slides/module_2/interactive_programming.ipynb)
 - [Control flow and order of operations](https://colab.research.google.com/github/ContextLab/cs-for-psych/blob/master/slides/module_2/control_flow_and_ooo.ipynb)
+- [Lecture 4 recording (W21)](https://youtu.be/0YmunqHonpE): interactive programs, control flow, exceptions and warnings
 - [Dictionaries and classes](https://colab.research.google.com/github/ContextLab/cs-for-psych/blob/master/slides/module_2/dictionaries_and_classes.ipynb)
 - [Variable scope and passing by value vs. reference](https://colab.research.google.com/github/ContextLab/cs-for-psych/blob/master/slides/module_2/scope_and_passing_by_value_vs_reference.ipynb)
 - [Writing Pythonic code: list comprehensions, generators, and iterators](https://colab.research.google.com/github/ContextLab/cs-for-psych/blob/master/slides/module_2/pythonic_code.ipynb)
