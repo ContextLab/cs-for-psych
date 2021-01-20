@@ -14,7 +14,7 @@
 
 # Orientation
 
-**Start here!**  The materials for each module below are organized sequentially.  Work your way from module to module (and from top to bottom within each module).  Take notes on questions, comments, concerns, etc. so that you can bring them up for discussion during our class meetings.  Several items are marked as optional; they may be skipped if desired, but they are included for students who wish to gain additional exposure to the material.
+**Start here!**  The materials for each module below are organized sequentially.  Work your way from module to module (and from top to bottom within each module).  The recorded lectures (in **bold**) typically cover preceding material (after the previous lecture, within the same module). Take notes on questions, comments, concerns, etc. so that you can bring them up for discussion during our synchronous class meetings or in the [gitter channel](https://gitter.im/cs-for-psych/PSYC-132-Winter-2021).  Several items are marked as optional; they may be skipped if desired, but they are included for students who wish to gain additional exposure to the material.
 
 - [Welcome message](https://youtu.be/UjHUfUCpTQU)
 - [**Lecture 1 recording (W21)**](https://youtu.be/XPsoY9R7dVs): orientation, overview, and "the sandwich exercise"
