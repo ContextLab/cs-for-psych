@@ -63,6 +63,7 @@
     - [Binary search trees](https://drive.google.com/file/d/1LuGuXDga4OtbHfdAvQSoBseQmCBYNMkh/view?usp=sharing)
 - [Lambda functions](https://realpython.com/python-lambda/) (Source: [realpython.com](https://realpython.com))
 - [Map, filter, reduce](https://www.learnpython.org/en/Map,_Filter,_Reduce) (Source: [learnpython.org](https://learnpython.org))
+- [Decorators](https://realpython.com/primer-on-python-decorators/) (Source: [realpython.com](https://realpython.com))
 - [Debugging in Google Colaboratory](https://colab.research.google.com/github/jakevdp/PythonDataScienceHandbook/blob/master/notebooks/01.06-Errors-and-Debugging.ipynb) (Source: [Python Data Science Handbook](https://jakevdp.github.io/PythonDataScienceHandbook/index.html) by Jake VanderPlas)
 - [Unit tests](https://realpython.com/python-testing/) (Source: [realpython.com](https://realpython.com))
 - [Optimizing your code](https://towardsdatascience.com/optimizing-your-python-code-156d4b8f4a29) (Source: [towardsdatascience](https://towardsdatascience.com))
