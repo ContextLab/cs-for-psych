@@ -14,24 +14,28 @@
 
 # Orientation
 
-**Start here!**  The materials for each module below are organized sequentially.  Work your way from module to module (and from top to bottom within each module).  Take notes on questions, comments, concerns, etc. so that you can bring them up for discussion during our class meetings.  Several items are marked as optional; they may be skipped if desired, but they are included for students who wish to gain additional exposure to the material.
+**Start here!**  The materials for each module below are organized sequentially.  Work your way from module to module (and from top to bottom within each module).  The recorded lectures (in **bold**) typically cover preceding material (after the previous lecture, within the same module). Take notes on questions, comments, concerns, etc. so that you can bring them up for discussion during our synchronous class meetings or in the [gitter channel](https://gitter.im/cs-for-psych/PSYC-132-Winter-2021).  Several items are marked as optional; they may be skipped if desired, but they are included for students who wish to gain additional exposure to the material.
 
 - [Welcome message](https://youtu.be/UjHUfUCpTQU)
-- [Lecture 1 recording (W21)](https://youtu.be/XPsoY9R7dVs): orientation, overview, and "the sandwich exercise"
+- [**Lecture 1 recording (W21)**](https://youtu.be/XPsoY9R7dVs): orientation, overview, and "the sandwich exercise"
 - [Fostering a programming mindset](https://github.com/ContextLab/cs-for-psych/blob/master/slides/module_0/programming_mindset.md)
 
 # Module 1: Course setup and Python basics
 
 - [Introduction and Overview](https://colab.research.google.com/github/ContextLab/cs-for-psych/blob/master/slides/module_1/introduction_and_overview.ipynb)
 - [Introduction to Jupyter Notebooks and Python](https://colab.research.google.com/github/ContextLab/cs-for-psych/blob/master/slides/module_1/intro_to_python.ipynb)
+- [**Lecture 2 recording (W21)**](https://youtu.be/hDsJgkQdPWs): variables, operators, datatypes, functions, if/elif/else statements, for and while loops
+- [**Lecture 3 recording (W21)**](https://youtu.be/bT0HwegxHWQ): libraries, practice "string manipulation" problems
 - [Assignment 1: Hello, world!](https://github.com/ContextLab/psyc32-hello-world) [[Accept assignment](https://classroom.github.com/a/xjc-u-1F)]
 
 # Module 2: Beyond the basics
 - [Interactive programs](https://colab.research.google.com/github/ContextLab/cs-for-psych/blob/master/slides/module_2/interactive_programming.ipynb)
 - [Control flow and order of operations](https://colab.research.google.com/github/ContextLab/cs-for-psych/blob/master/slides/module_2/control_flow_and_ooo.ipynb)
+- [**Lecture 4 recording (W21)**](https://youtu.be/0YmunqHonpE): interactive programs, control flow, exceptions and warnings
 - [Dictionaries and classes](https://colab.research.google.com/github/ContextLab/cs-for-psych/blob/master/slides/module_2/dictionaries_and_classes.ipynb)
-- [Variable scope and passing by value vs. reference](https://colab.research.google.com/github/ContextLab/cs-for-psych/blob/master/slides/module_2/scope_and_passing_by_value_vs_reference.ipynb)
 - [Writing Pythonic code: list comprehensions, generators, and iterators](https://colab.research.google.com/github/ContextLab/cs-for-psych/blob/master/slides/module_2/pythonic_code.ipynb)
+- [**Lecture 5 recording (W21)**](https://youtu.be/3VmcI5AjXeY): assert statements, dictionaries, sets, classes, and list comprehensions
+- [Variable scope and passing by value vs. reference](https://colab.research.google.com/github/ContextLab/cs-for-psych/blob/master/slides/module_2/scope_and_passing_by_value_vs_reference.ipynb)
 - [Assignment 2: Chess puzzle solver](https://github.com/ContextLab/psyc32-n-queens) [[Accept assignment](https://classroom.github.com/a/nHf5amef)]
 
 # Module 3: Find your inner hacker
@@ -59,6 +63,7 @@
     - [Binary search trees](https://drive.google.com/file/d/1LuGuXDga4OtbHfdAvQSoBseQmCBYNMkh/view?usp=sharing)
 - [Lambda functions](https://realpython.com/python-lambda/) (Source: [realpython.com](https://realpython.com))
 - [Map, filter, reduce](https://www.learnpython.org/en/Map,_Filter,_Reduce) (Source: [learnpython.org](https://learnpython.org))
+- [Decorators](https://realpython.com/primer-on-python-decorators/) (Source: [realpython.com](https://realpython.com))
 - [Debugging in Google Colaboratory](https://colab.research.google.com/github/jakevdp/PythonDataScienceHandbook/blob/master/notebooks/01.06-Errors-and-Debugging.ipynb) (Source: [Python Data Science Handbook](https://jakevdp.github.io/PythonDataScienceHandbook/index.html) by Jake VanderPlas)
 - [Unit tests](https://realpython.com/python-testing/) (Source: [realpython.com](https://realpython.com))
 - [Optimizing your code](https://towardsdatascience.com/optimizing-your-python-code-156d4b8f4a29) (Source: [towardsdatascience](https://towardsdatascience.com))
