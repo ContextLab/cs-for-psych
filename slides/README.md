@@ -36,7 +36,8 @@
 - [Writing Pythonic code: list comprehensions, generators, and iterators](https://colab.research.google.com/github/ContextLab/cs-for-psych/blob/master/slides/module_2/pythonic_code.ipynb)
 - [**Lecture 5 recording (W21)**](https://youtu.be/3VmcI5AjXeY): assert statements, dictionaries, sets, classes, and list comprehensions
 - [**Lecture 6 recording (W21)**](https://youtu.be/LbHhsKXeb7E): dictionary and set comprehensions, generators, and iterators
-- [Variable scope and passing by value vs. reference](https://colab.research.google.com/github/ContextLab/cs-for-psych/blob/master/slides/module_2/scope_and_passing_by_value_vs_reference.ipynb)
+- [Variable scope and passing by value versus by reference](https://colab.research.google.com/github/ContextLab/cs-for-psych/blob/master/slides/module_2/scope_and_passing_by_value_vs_reference.ipynb)
+- [**Lecture 7 recording (W21)**](https://youtu.be/WnszGCW0o8g): variable scope, passing by value versus by reference
 - [Assignment 2: Chess puzzle solver](https://github.com/ContextLab/psyc32-n-queens) [[Accept assignment](https://classroom.github.com/a/nHf5amef)]
 
 # Module 3: Find your inner hacker
