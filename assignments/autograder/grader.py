@@ -12,6 +12,8 @@ from nbformat import read
 from IPython.core.interactiveshell import InteractiveShell
 from configparser import ConfigParser
 import plotly.express as px
+from string import ascii_lowercase
+import itertools
 
 ###########
 #source: https://jupyter-notebook.readthedocs.io/en/stable/examples/Notebook/Importing%20Notebooks.html
@@ -97,6 +99,27 @@ class NotebookFinder(object):
 sys.meta_path.append(NotebookFinder())
 ###########
 
+
+def get_fname_suffix(n):
+    '''
+    return a list of suffixes to append to fnames with the same base:
+    a, b, c, ..., z, aa, ab, ..., az, ba, ..., bz, aaa, aab, ...
+    '''
+    #source: https://stackoverflow.com/questions/29351492/how-to-make-a-continuous-alphabetic-list-python-from-a-z-then-from-aa-ab-ac-e/29351603    
+    def generate_id():
+        i = 1
+        while True:
+            for s in itertools.product(ascii_lowercase, repeat=i):
+                yield ''.join(s)
+            i += 1
+    
+    gen = generate_id()
+    
+    def helper():
+        for s in gen:
+            return s
+    
+    return [helper() for i in range(n)][-1]
 
 
 
@@ -293,44 +316,47 @@ def autograde(submissions_dir, root=None, plot_it=False, grading_repo=None, publ
     return grades
 
 def autograde_notebooks(submissions_dir, rubrics, student):  
-    def grade_notebook(notebook_fname, outfile=None, quiet=False):
-        basedir, notebook = os.path.split(notebook_fname)        
+    def grade_notebook(notebook_fname, outfile=None, quiet=False):        
+        basedir, notebook = os.path.split(notebook_fname)
         target = notebook[:-6]
-        
+
         bad_chars = [' ', '-', ',', '!', '?', '.']
         modified_target = target
+
         for b in bad_chars:
             if b in modified_target:
                 modified_target = modified_target.replace(b, '_')
-        
-        print(f'grading: {modified_target}.ipynb')
+
+        print(f'grading: {target}.ipynb')
         clean_up = False
         if modified_target != target:
-            if os.path.exists(os.path.join(basedir, modified_target)):
+            if os.path.exists(os.path.join(basedir, modified_target + '.ipynb')):
                 clean_up = True
                 os.rename(os.path.join(basedir, modified_target + '.ipynb'), os.path.join(basedir, modified_target + '.ipynb.BACKUP'))
             os.rename(os.path.join(basedir, target + '.ipynb'), os.path.join(basedir, modified_target + '.ipynb'))
-        
+
+        #mydir = os.getcwd()
         if 'submission' in sys.modules:
             print('pop!')
-
             sys.modules.pop('submission')
-        
-        try:
-            submission = notebook_to_module(modified_target)            
+        try:        
+            os.chdir(basedir)
+            submission = notebook_to_module(modified_target)
             score = grade_assignment(submission, rubrics, quiet=quiet, outfile=outfile)
         except:
+            print('** ERROR!')
             if outfile is not None:
                 with open(outfile, 'w') as fd:
                     print('Assignment could not be autograded: notebook failed to run!', file=fd)
             score = 0.0
-                        
+        #os.chdir(mydir)
+
         if modified_target != target:
             os.rename(os.path.join(basedir, modified_target + '.ipynb'), os.path.join(basedir, target + '.ipynb'))
-        
+
         if clean_up:
             os.rename(os.path.join(basedir, modified_target + '.ipynb.BACKUP'), os.path.join(basedir, modified_target + '.ipynb'))
-        
+
         return score
     
     start_dir = os.getcwd()    
