@@ -264,8 +264,7 @@ def commit_and_push(submissions_dir, students, root=None, private_dir=None, debu
         else:
             token = gitconfig['github']['token']
         
-        cmds = [f"git remote add {s} https://{token}@github.com/ContextLab/{assignment}-{s}.git",
-                f'git pull {s} {feedback_branch}', #comment this out after pushing revised reports
+        cmds = [f"git remote add {s} https://{token}@github.com/ContextLab/{assignment}-{s}.git", #f'git pull {s} {feedback_branch}', #comment this out after pushing revised reports
                 f'git fetch {s}',
                 f'git checkout -b {feedback_branch}',
                 'git add report.txt', 
