@@ -64,7 +64,7 @@
     - [Queues and stacks](https://drive.google.com/file/d/13fnBkyRSHuTWwVkJuOZuXL072rrHl5tC/view?usp=sharing)
     - [Binary search trees](https://drive.google.com/file/d/1LuGuXDga4OtbHfdAvQSoBseQmCBYNMkh/view?usp=sharing)
 - [**Lecture 8 recording (W21)**](https://youtu.be/uqafHXnxn9Q): coding exercise on recursion, sorting, and linked lists
-- [**Lecture 9 recording (W21)**](https://youtu.be/0a10Jvenn1g): applications of data structures and algorithms, building an English to Pig Latin translator
+- [**Lecture 9 recording (W21)**](https://youtu.be/oEvdowJkhVU): applications of data structures and algorithms, building an English to Pig Latin translator
 - [Lambda functions](https://realpython.com/python-lambda/) (Source: [realpython.com](https://realpython.com))
 - [Map, filter, reduce](https://www.learnpython.org/en/Map,_Filter,_Reduce) (Source: [learnpython.org](https://learnpython.org))
 - [Decorators](https://realpython.com/primer-on-python-decorators/) (Source: [realpython.com](https://realpython.com))
