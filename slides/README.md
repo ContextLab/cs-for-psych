@@ -60,9 +60,8 @@
     - Graphs:
       - [Overview](https://drive.google.com/file/d/1Phf9dveviodykjUzwCzkR2nFMqyWqiwo/view?usp=sharing)
       - [Representing graphs](https://drive.google.com/file/d/1tRRVLJyeuemjMNMyS690lz4IPpYB-IWv/view?usp=sharing)
-      - [Breadth-first search](https://drive.google.com/file/d/1tRRVLJyeuemjMNMyS690lz4IPpYB-IWv/view?usp=sharing)
+      - [Breadth-first search](https://drive.google.com/file/d/1qHaMQXkPDHU5mfYc9WKRlNhRnHPsyB38/view)
     - [Queues and stacks](https://drive.google.com/file/d/13fnBkyRSHuTWwVkJuOZuXL072rrHl5tC/view?usp=sharing)
-    - [Binary search trees](https://drive.google.com/file/d/1LuGuXDga4OtbHfdAvQSoBseQmCBYNMkh/view?usp=sharing)
 - [**Lecture 8 recording (W21)**](https://youtu.be/uqafHXnxn9Q): coding exercise on recursion, sorting, and linked lists
 - [**Lecture 9 recording (W21)**](https://youtu.be/oEvdowJkhVU): applications of data structures and algorithms, building an English to Pig Latin translator
 - [Lambda functions](https://realpython.com/python-lambda/) (Source: [realpython.com](https://realpython.com))
@@ -84,7 +83,7 @@
 - A (shallow) introduction to deep learning with [Tensorflow](https://www.tensorflow.org/tutorials/quickstart/beginner) (Source: [tensorflow.org](https://www.tensorflow.org/)) and [PyTorch](https://pytorch.org/tutorials/beginner/deep_learning_60min_blitz.html) (Source: [pytorch.org](https://pytorch.org/))
 - [PyTest](https://github.com/ContextLab/CDL-tutorials/tree/master/testing) (Source: [CDL tutorials](https://github.com/ContextLab/CDL-tutorials))
   - [More in-depth PyTest tutorial](https://www.youtube.com/watch?v=LX2ksGYXJ80) (Source: [SciPy 2019 tutorials](https://www.youtube.com/redirect?v=LX2ksGYXJ80&redir_token=QUFFLUhqbFVjTkw0a3djNGx3SnlrdlRsOFVteDU0cmpYd3xBQ3Jtc0tsWkEyeXpHODd4SXJyRWpXUHlOcFhTSEVXUGt4SFpUUmpQOW5sT05GOGVxeTRaaUFQZi15OXFnV3ozTHh4ZWNoSHU5V0lkd0E0UUo2THZ5TnV3YVdvQWxlelVHZW1QYlFlN1JfbGFVZEJDRGdQX0N6MA%3D%3D&event=video_description&q=https%3A%2F%2Fwww.scipy2019.scipy.org%2Ftutorial-participant-instructions))
-- Assignment 4: Web scraping and data wrangling [Accept assignment]
+- Assignment 4: Library tour! [Accept assignment]
 
 # Module 5: Collecting data
 - jsPsych (note: this is a [JavaScript](https://en.wikipedia.org/wiki/JavaScript) library, not a Python library.  As such, you may find it useful to go through a quick(ish) JavaScript tutorial like [this one](https://www.youtube.com/watch/W6NZfCO5SIk) before going through the jsPsych tutorials below.)
