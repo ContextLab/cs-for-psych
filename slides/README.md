@@ -71,7 +71,8 @@
 - [Unit tests](https://realpython.com/python-testing/) (Source: [realpython.com](https://realpython.com))
 - [Optimizing your code](https://towardsdatascience.com/optimizing-your-python-code-156d4b8f4a29) (Source: [towardsdatascience](https://towardsdatascience.com))
 - [Writing maintainable and shareable code](https://towardsdatascience.com/the-ultimate-guide-to-writing-better-python-code-1362a1209e5a) (Source: [towardsdatascience](https://towardsdatascience.com))
-- [**Lecture 10 recording (W21)**](https://youtu.be/nixpJySn228): assignment 3 Q&A, lambda functions
+- [**Lecture 10 recording (W21)**](https://youtu.be/nixpJySn228): assignment 3 Q&A (part 1), lambda functions
+- [**Lecture 11 recording (W21)**](https://youtu.be/yewvdDHgpVY): assignment 3 Q&A (part 2), advanced applications of lambda functions, decorators
 - [Assignment 3: ELIZA](https://github.com/ContextLab/psyc32-eliza) [[Accept assignment](https://classroom.github.com/a/05_59FMz)]
 
 # Module 4: External libraries
