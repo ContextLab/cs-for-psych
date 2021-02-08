@@ -83,6 +83,7 @@
 - [Visualizing high-dimensional data with Hypertools](https://hypertools.readthedocs.io/en/latest/tutorials.html) (Source: [hypertools.readthedocs.io](https://hypertools.readthedocs.io/))
   - In-class exercise: [exploring Bob Ross's paintings using numpy, pandas, matplotlib, seaborn, and hypertools](https://github.com/ContextLab/cs-for-psych/blob/master/slides/module_4/bob_ross_libraries_demo.ipynb)
 - [**Lecture 12 recording (W21)**](https://youtu.be/dZ7zBnQgKGQ): numpy, pandas, matplotlib, seaborn, and hypertools
+- [**Lecture 13 recording (W21)**](https://youtu.be/kk9bdpVHC6c): Bob Ross dataset brainstorm and hackathon
 - [Scikit-learn](https://jakevdp.github.io/PythonDataScienceHandbook/05.02-introducing-scikit-learn.html) (from [Python Data Science Handbook](https://jakevdp.github.io/PythonDataScienceHandbook/index.html) by Jake VanderPlas)
 - A (shallow) introduction to deep learning with [Tensorflow](https://www.tensorflow.org/tutorials/quickstart/beginner) (Source: [tensorflow.org](https://www.tensorflow.org/)) and [PyTorch](https://pytorch.org/tutorials/beginner/deep_learning_60min_blitz.html) (Source: [pytorch.org](https://pytorch.org/))
 - [PyTest](https://github.com/ContextLab/CDL-tutorials/tree/master/testing) (Source: [CDL tutorials](https://github.com/ContextLab/CDL-tutorials))
