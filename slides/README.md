@@ -82,11 +82,14 @@
 - More details on plotting libraries: [Matplotlib](https://jakevdp.github.io/PythonDataScienceHandbook/04.00-introduction-to-matplotlib.html) and [Seaborn](https://jakevdp.github.io/PythonDataScienceHandbook/04.14-visualization-with-seaborn.html) (from [Python Data Science Handbook](https://jakevdp.github.io/PythonDataScienceHandbook/index.html) by Jake VanderPlas)
 - [Visualizing high-dimensional data with Hypertools](https://hypertools.readthedocs.io/en/latest/tutorials.html) (Source: [hypertools.readthedocs.io](https://hypertools.readthedocs.io/))
   - In-class exercise: [exploring Bob Ross's paintings using numpy, pandas, matplotlib, seaborn, and hypertools](https://github.com/ContextLab/cs-for-psych/blob/master/slides/module_4/bob_ross_libraries_demo.ipynb)
+- [**Lecture 12 recording (W21)**](https://youtu.be/dZ7zBnQgKGQ): numpy, pandas, matplotlib, seaborn, and hypertools
+- [**Lecture 13 recording (W21)**](https://youtu.be/kk9bdpVHC6c): Bob Ross dataset brainstorm and hackathon (part 1)
+- [**Lecture 14 recording (W21)**](https://youtu.be/XMUem0HzngY): Bob Ross hackathon (part 2)
 - [Scikit-learn](https://jakevdp.github.io/PythonDataScienceHandbook/05.02-introducing-scikit-learn.html) (from [Python Data Science Handbook](https://jakevdp.github.io/PythonDataScienceHandbook/index.html) by Jake VanderPlas)
 - A (shallow) introduction to deep learning with [Tensorflow](https://www.tensorflow.org/tutorials/quickstart/beginner) (Source: [tensorflow.org](https://www.tensorflow.org/)) and [PyTorch](https://pytorch.org/tutorials/beginner/deep_learning_60min_blitz.html) (Source: [pytorch.org](https://pytorch.org/))
 - [PyTest](https://github.com/ContextLab/CDL-tutorials/tree/master/testing) (Source: [CDL tutorials](https://github.com/ContextLab/CDL-tutorials))
   - [More in-depth PyTest tutorial](https://www.youtube.com/watch?v=LX2ksGYXJ80) (Source: [SciPy 2019 tutorials](https://www.youtube.com/redirect?v=LX2ksGYXJ80&redir_token=QUFFLUhqbFVjTkw0a3djNGx3SnlrdlRsOFVteDU0cmpYd3xBQ3Jtc0tsWkEyeXpHODd4SXJyRWpXUHlOcFhTSEVXUGt4SFpUUmpQOW5sT05GOGVxeTRaaUFQZi15OXFnV3ozTHh4ZWNoSHU5V0lkd0E0UUo2THZ5TnV3YVdvQWxlelVHZW1QYlFlN1JfbGFVZEJDRGdQX0N6MA%3D%3D&event=video_description&q=https%3A%2F%2Fwww.scipy2019.scipy.org%2Ftutorial-participant-instructions))
-- Assignment 4: Library tour! [Accept assignment]
+- [Assignment 4: Library tour!](https://github.com/ContextLab/psyc32-library-tour) [[Accept assignment](https://classroom.github.com/a/kU7_Fvov)]
 
 # Module 5: Collecting data
 - jsPsych (note: this is a [JavaScript](https://en.wikipedia.org/wiki/JavaScript) library, not a Python library.  As such, you may find it useful to go through a quick(ish) JavaScript tutorial like [this one](https://www.youtube.com/watch/W6NZfCO5SIk) before going through the jsPsych tutorials below.)
