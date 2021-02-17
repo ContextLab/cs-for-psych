@@ -104,16 +104,16 @@
 
 # Module 6: Interrogating your data
 - [Basic statistical tests using Pingouin](https://pingouin-stats.org/) (Source: [pingouin-stats.org](https://pingouin-stats.org/))
-- Permutation tests and Monte Carlo simulation
-- Regression
-- Dimensionality reduction
+- [Permutation tests](https://towardsdatascience.com/how-to-assess-statistical-significance-in-your-data-with-permutation-tests-8bb925b2113d) (Source: [towardsdatascience](https://towardsdatascience.com))
+- [Monte Carlo simulation](https://pbpython.com/monte-carlo.html) (Source: [Practical Business Python](https://pbpython.com/))
+- [Regression](https://towardsdatascience.com/machine-learning-with-python-regression-complete-tutorial-47268e546cea) (Source: [towardsdatascience](https://towardsdatascience.com))
+- [Dimensionality reduction](https://www.analyticsvidhya.com/blog/2018/08/dimensionality-reduction-techniques-python/) (Source: [Analytics Vidhya](https://www.analyticsvidhya.com/blog/))
 - Assignment 6: Report your experimental results [Accept assignment]
 
 # Module 7: Models
 - [What *is* a model?](https://github.com/ContextLab/cs-for-psych/tree/master/slides#module-10-advanced-topics) (Source: [Daniel Lawson](https://people.maths.bris.ac.uk/~madjl/))
 - [Ten simple rules for the computational modeling of behavioral data](https://elifesciences.org/articles/49547) (Source: [eLife](https://elifesciences.org) article by [Robert Wilson](http://u.arizona.edu/~bob/) and [Anne Collins](https://www.ocf.berkeley.edu/~acollins/))
 - [Ten (more) rules for building computational models](https://journals.plos.org/ploscompbiol/article/file?id=10.1371/journal.pcbi.1008539&type=printable) (Source: [PLoS Computational Biology](https://journals.plos.org/ploscompbiol) article by [Korryn Bodner](https://korrynbodner.webnode.com/) et al.)
-- Building your first model
 - Model fitting:
   - [Scipy optimization](https://towardsdatascience.com/optimization-with-scipy-and-application-ideas-to-machine-learning-81d39c7938b8) (Source: [towardsdatascience](https://towardsdatascience.com))
   - [Model training and evaluation with TensorFlow](https://www.tensorflow.org/guide/keras/train_and_evaluate) (Source: [tensorflow.org](https://www.tensorflow.org))
@@ -147,7 +147,9 @@
 - Assignment 9: Thought trajectories [Accept assignment]
 
 # Module 10: Advanced topics
-- Graphs and networks
+- Graphs and networks:
+  - [NetworkX](https://networkx.org/documentation/stable/tutorial.html) (Source: [networkx.org](https://networkx.org))
+  - [Brain Connectivity Toolbox](https://sites.google.com/site/bctnet/Home/help)
 - [High-order correlations with TimeCorr](https://timecorr.readthedocs.io/en/latest/tutorials.html) (Source: [timecorr.readthedocs.io](https://timecorr.readthedocs.io/))
 - [Writing your own library](https://github.com/ContextLab/CDL-tutorials/blob/master/packages/README.md) (Source: [CDL-tutorials](https://github.com/ContextLab/CDL-tutorials))
 - Assignment 10: Pip, pip, hooray! [Accept assignment]
