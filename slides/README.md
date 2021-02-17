@@ -111,7 +111,7 @@
 - Assignment 6: Report your experimental results [Accept assignment]
 
 # Module 7: Models
-- [What *is* a model?](https://github.com/ContextLab/cs-for-psych/tree/master/slides#module-10-advanced-topics) (Source: [Daniel Lawson](https://people.maths.bris.ac.uk/~madjl/))
+- [What *is* a model?](https://people.maths.bris.ac.uk/~madjl/course_text.pdf) (Source: [Daniel Lawson](https://people.maths.bris.ac.uk/~madjl/))
 - [Ten simple rules for the computational modeling of behavioral data](https://elifesciences.org/articles/49547) (Source: [eLife](https://elifesciences.org) article by [Robert Wilson](http://u.arizona.edu/~bob/) and [Anne Collins](https://www.ocf.berkeley.edu/~acollins/))
 - [Ten (more) rules for building computational models](https://journals.plos.org/ploscompbiol/article/file?id=10.1371/journal.pcbi.1008539&type=printable) (Source: [PLoS Computational Biology](https://journals.plos.org/ploscompbiol) article by [Korryn Bodner](https://korrynbodner.webnode.com/) et al.)
 - Model fitting:
