@@ -110,13 +110,16 @@
 - Assignment 6: Report your experimental results [Accept assignment]
 
 # Module 7: Models
-- What *is* a model?
+- [What *is* a model?](https://github.com/ContextLab/cs-for-psych/tree/master/slides#module-10-advanced-topics) (Source: [Daniel Lawson](https://people.maths.bris.ac.uk/~madjl/))
 - [Ten simple rules for the computational modeling of behavioral data](https://elifesciences.org/articles/49547) (Source: [eLife](https://elifesciences.org) article by [Robert Wilson](http://u.arizona.edu/~bob/) and [Anne Collins](https://www.ocf.berkeley.edu/~acollins/))
+- [Ten (more) rules for building computational models](https://journals.plos.org/ploscompbiol/article/file?id=10.1371/journal.pcbi.1008539&type=printable) (Source: [PLoS Computational Biology](https://journals.plos.org/ploscompbiol) article by [Korryn Bodner](https://korrynbodner.webnode.com/) et al.)
 - Building your first model
-- Model fitting
+- Model fitting:
+  - [Scipy optimization](https://towardsdatascience.com/optimization-with-scipy-and-application-ideas-to-machine-learning-81d39c7938b8) (Source: [towardsdatascience](https://towardsdatascience.com))
+  - [Model training and evaluation with TensorFlow](https://www.tensorflow.org/guide/keras/train_and_evaluate) (Source: [tensorflow.org](https://www.tensorflow.org))
+  - [Bayesian inference with PyStan](https://towardsdatascience.com/an-introduction-to-bayesian-inference-in-pystan-c27078e58d53) (Source: [towardsdatascience](https://towardsdatascience.com))
 - Evaluating and comparing models
   - **Optional:** [Build, compute, critique, repeat: data analysis with latent variable models](https://oar.princeton.edu/jspui/bitstream/88435/pr12b6p/1/Blei%20-%20Build%2C%20Compute%2C%20Critique%2C%20Repeat.pdf) (Source: [Annual Review of Statistics and its Application](https://www.annualreviews.org/doi/full/10.1146/annurev-statistics-022513-115657) article by [David Blei](http://www.cs.columbia.edu/~blei/))
-- Example models: reinforcement learning, temporal context model
 - **Optional:** [this repository](https://github.com/brendenlake/CCM-site) contains materials and assignments for NYU's excellent Computational Cognitive Modeling course (Source: [Brenden Lake](https://cims.nyu.edu/~brenden/) and [Todd Gureckis](http://psych.nyu.edu/gureckis/)).  Pick and choose whatever seems interesting to you!
 - Assignment 7: Model your data [Accept assignment]
 
@@ -130,9 +133,17 @@
 - Assignment 8: Working with brain data [Accept assignment]
 
 # Module 9: Natural language processing
-- Tokenization, stemming, and lemmatization and parse trees
-- Word embedding models
-- Context-sensitive text models
+- [Tokenization](https://www.youtube.com/watch?v=JGaA2nT5Qk4) (Source: [DataCamp's Introduction to Natural Language Processing in Python](https://learn.datacamp.com/courses/introduction-to-natural-language-processing-in-python))
+- [Stemming, and lemmatization](https://www.datacamp.com/community/tutorials/stemming-lemmatization-python) (Source: [DataCamp Community Tutorials](https://www.datacamp.com/community/tutorials))
+- [Parsing](https://lost-contact.mit.edu/afs/cs.pitt.edu/projects/nltk/docs/tutorial/parsing.pdf) (Source: [Edward Loper's Natural Language Processing Toolkit tutorials](https://lost-contact.mit.edu/afs/cs.pitt.edu/projects/nltk/docs/tutorial))
+- Word embedding models:
+  - [Latent Dirichlet Allocation](https://towardsdatascience.com/end-to-end-topic-modeling-in-python-latent-dirichlet-allocation-lda-35ce4ed6b3e0) (Source: [towardsdatascience](https://towardsdatascience.com))
+  - [word2vec](https://machinelearningmastery.com/develop-word-embeddings-python-gensim/) (Source: [machinelearningmastery.com](https://machinelearningmastery.com))
+- Context-sensitive text models:
+  - [Universal Sentence Encoder](https://www.tensorflow.org/hub/tutorials/semantic_similarity_with_tf_hub_universal_encoder) (Source: [tensorflow.org](https://www.tensorflow.org))
+  - [Long Short Term Memory networks](https://adventuresinmachinelearning.com/keras-lstm-tutorial/) (Source: [Adventures in Machine Learning](https://adventuresinmachinelearning.com))
+  - [Bidirectional Encoder Representations from Transformers](http://jalammar.github.io/a-visual-guide-to-using-bert-for-the-first-time/) (Source: [Jay Alammar](http://jalammar.github.io))
+  - [Generative Pre-trained Transformer](https://minimaxir.com/2019/09/howto-gpt2/) (Source: [Max Woolf](https://minimaxir.com/))
 - Assignment 9: Thought trajectories [Accept assignment]
 
 # Module 10: Advanced topics
