@@ -106,6 +106,7 @@
 # Module 6: Interrogating your data
 - [Basic statistical tests using Pingouin](https://pingouin-stats.org/) (Source: [pingouin-stats.org](https://pingouin-stats.org/))
 - [Permutation tests](https://towardsdatascience.com/how-to-assess-statistical-significance-in-your-data-with-permutation-tests-8bb925b2113d) (Source: [towardsdatascience](https://towardsdatascience.com))
+  - [Hackathon: code breaking with permutation tests!](https://github.com/ContextLab/cs-for-psych/blob/master/slides/module_6/permutation_tests_hackathon.ipynb)
 - [Monte Carlo simulation](https://pbpython.com/monte-carlo.html) (Source: [Practical Business Python](https://pbpython.com/))
 - [Regression](https://towardsdatascience.com/machine-learning-with-python-regression-complete-tutorial-47268e546cea) (Source: [towardsdatascience](https://towardsdatascience.com))
 - [Dimensionality reduction](https://www.analyticsvidhya.com/blog/2018/08/dimensionality-reduction-techniques-python/) (Source: [Analytics Vidhya](https://www.analyticsvidhya.com/blog/))
