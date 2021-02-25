@@ -98,6 +98,7 @@
 - [Assignment 4: Library tour!](https://github.com/ContextLab/psyc32-library-tour) [[Accept assignment](https://classroom.github.com/a/kU7_Fvov)]
 
 # Module 5: Collecting data
+- *Note: this module was not covered during the W21 offering of PSYC 132*
 - jsPsych (note: this is a [JavaScript](https://en.wikipedia.org/wiki/JavaScript) library, not a Python library.  As such, you may find it useful to go through a quick(ish) JavaScript tutorial like [this one](https://www.youtube.com/watch/W6NZfCO5SIk) before going through the jsPsych tutorials below.)
   - [Basics](https://www.jspsych.org/tutorials/hello-world/) (Source: [jspsych.org](https://www.jspsych.org/))
   - [Simple reaction time task](https://www.jspsych.org/tutorials/rt-task/) (Source: [jspsych.org](https://www.jspsych.org/))
@@ -109,6 +110,7 @@
 - [Basic statistical tests using Pingouin](https://pingouin-stats.org/) (Source: [pingouin-stats.org](https://pingouin-stats.org/))
 - [Permutation tests](https://towardsdatascience.com/how-to-assess-statistical-significance-in-your-data-with-permutation-tests-8bb925b2113d) (Source: [towardsdatascience](https://towardsdatascience.com))
   - [Hackathon: code breaking with permutation tests!](https://github.com/ContextLab/cs-for-psych/blob/master/slides/module_6/permutation_tests_hackathon.ipynb)
+- [**Lecture 20 recording (W21)**](https://youtu.be/zfRG4ZAa0C4): permutation testing hackathon (part 1)
 - [Monte Carlo simulation](https://pbpython.com/monte-carlo.html) (Source: [Practical Business Python](https://pbpython.com/))
 - [Regression](https://towardsdatascience.com/machine-learning-with-python-regression-complete-tutorial-47268e546cea) (Source: [towardsdatascience](https://towardsdatascience.com))
 - [Dimensionality reduction](https://www.analyticsvidhya.com/blog/2018/08/dimensionality-reduction-techniques-python/) (Source: [Analytics Vidhya](https://www.analyticsvidhya.com/blog/))
