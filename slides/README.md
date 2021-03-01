@@ -104,7 +104,6 @@
   - [Simple reaction time task](https://www.jspsych.org/tutorials/rt-task/) (Source: [jspsych.org](https://www.jspsych.org/))
   - [Sample experiments from Experiment Factory](https://expfactory.github.io/)
 - **Optional:** [PsychoPy](https://www.psychopy.org/gettingStarted.html) (Source: [psychopy.org](https://www.psychopy.org/)) and [OpenSesame](https://osdoc.cogsci.nl/3.2/tutorials/beginner/) (Source: [osdoc.cogsci.nl](https://osdoc.cogsci.nl/))
-- Assignment 5: 50-participant challenge! [Accept assignment]
 
 # Module 6: Interrogating your data
 - [Basic statistical tests using Pingouin](https://pingouin-stats.org/) (Source: [pingouin-stats.org](https://pingouin-stats.org/))
@@ -115,7 +114,6 @@
 - [Monte Carlo simulation](https://pbpython.com/monte-carlo.html) (Source: [Practical Business Python](https://pbpython.com/))
 - [Regression](https://towardsdatascience.com/machine-learning-with-python-regression-complete-tutorial-47268e546cea) (Source: [towardsdatascience](https://towardsdatascience.com))
 - [Dimensionality reduction](https://www.analyticsvidhya.com/blog/2018/08/dimensionality-reduction-techniques-python/) (Source: [Analytics Vidhya](https://www.analyticsvidhya.com/blog/))
-- Assignment 6: Report your experimental results [Accept assignment]
 
 # Module 7: Models
 - [What *is* a model?](https://people.maths.bris.ac.uk/~madjl/course_text.pdf) (Source: [Daniel Lawson](https://people.maths.bris.ac.uk/~madjl/))
@@ -129,7 +127,7 @@
 - Evaluating and comparing models
   - **Optional:** [Build, compute, critique, repeat: data analysis with latent variable models](https://oar.princeton.edu/jspui/bitstream/88435/pr12b6p/1/Blei%20-%20Build%2C%20Compute%2C%20Critique%2C%20Repeat.pdf) (Source: [Annual Review of Statistics and its Application](https://www.annualreviews.org/doi/full/10.1146/annurev-statistics-022513-115657) article by [David Blei](http://www.cs.columbia.edu/~blei/))
 - **Optional:** [this repository](https://github.com/brendenlake/CCM-site) contains materials and assignments for NYU's excellent Computational Cognitive Modeling course (Source: [Brenden Lake](https://cims.nyu.edu/~brenden/) and [Todd Gureckis](http://psych.nyu.edu/gureckis/)).  Pick and choose whatever seems interesting to you!
-- Assignment 7: Model your data [Accept assignment]
+- [Assignment 5: MAGELLAN](https://github.com/ContextLab/psyc32-magellan) [[Accept assignment](https://classroom.github.com/a/pQIgULsu)]
 
 # Module 8: Timeseries analysis
 - Working with brain data:
