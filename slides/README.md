@@ -120,6 +120,7 @@
 - [Ten simple rules for the computational modeling of behavioral data](https://elifesciences.org/articles/49547) (Source: [eLife](https://elifesciences.org) article by [Robert Wilson](http://u.arizona.edu/~bob/) and [Anne Collins](https://www.ocf.berkeley.edu/~acollins/))
 - [Ten (more) rules for building computational models](https://journals.plos.org/ploscompbiol/article/file?id=10.1371/journal.pcbi.1008539&type=printable) (Source: [PLoS Computational Biology](https://journals.plos.org/ploscompbiol) article by [Korryn Bodner](https://korrynbodner.webnode.com/) et al.)
 - [Theory construction methodology: a practical framework for building theories in psychology](https://journals.sagepub.com/doi/abs/10.1177/1745691620969647#articleShareContainer) (Source: [Perspectives on Psychological Science](https://journals.sagepub.com/home/pps) article by [Denny Borsboom](https://dennyborsboom.com/) et al.)
+- [**Lecture 22 recording (W21)**](https://youtu.be/-LQvQY8JpCI): introduction to computational models
 - Model fitting:
   - [Scipy optimization](https://towardsdatascience.com/optimization-with-scipy-and-application-ideas-to-machine-learning-81d39c7938b8) (Source: [towardsdatascience](https://towardsdatascience.com))
   - [Model training and evaluation with TensorFlow](https://www.tensorflow.org/guide/keras/train_and_evaluate) (Source: [tensorflow.org](https://www.tensorflow.org))
