@@ -136,6 +136,7 @@
   - [BrainIAK Aperture Tutorials](https://github.com/brainiak/brainiak-aperture) (Source: [Brain Imaging Analysis Kit](https://brainiak.org))
   - [MNE Tutorials](https://mne.tools/dev/auto_tutorials/index.html) (Source: [MNE Python](https://mne.tools/dev/index.html))
 - [SkTime User Guide](https://sktime.org/en/latest/user_guite.html) (Source: [The Alan Turing Institute](https://www.turing.ac.uk/))
+- [High-order correlations with TimeCorr](https://timecorr.readthedocs.io/en/latest/tutorials.html) (Source: [timecorr.readthedocs.io](https://timecorr.readthedocs.io/))
 
 # Module 9: Natural language processing
 - [Tokenization](https://www.youtube.com/watch?v=JGaA2nT5Qk4) (Source: [DataCamp's Introduction to Natural Language Processing in Python](https://learn.datacamp.com/courses/introduction-to-natural-language-processing-in-python))
@@ -151,8 +152,8 @@
   - [Generative Pre-trained Transformer](https://minimaxir.com/2019/09/howto-gpt2/) (Source: [Max Woolf](https://minimaxir.com/))
 
 # Module 10: Advanced topics
+- *Note: this module was not covered during the W21 offering of PSYC 132*
 - Graphs and networks:
   - [NetworkX](https://networkx.org/documentation/stable/tutorial.html) (Source: [networkx.org](https://networkx.org))
   - [Brain Connectivity Toolbox](https://sites.google.com/site/bctnet/Home/help)
-- [High-order correlations with TimeCorr](https://timecorr.readthedocs.io/en/latest/tutorials.html) (Source: [timecorr.readthedocs.io](https://timecorr.readthedocs.io/))
 - [Writing your own library](https://github.com/ContextLab/CDL-tutorials/blob/master/packages/README.md) (Source: [CDL-tutorials](https://github.com/ContextLab/CDL-tutorials))
