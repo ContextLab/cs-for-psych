@@ -136,7 +136,7 @@
   - [DartBrains](https://dartbrains.org) (Source: [Luke Chang](https://cosanlab.com))
   - [BrainIAK Aperture Tutorials](https://github.com/brainiak/brainiak-aperture) (Source: [Brain Imaging Analysis Kit](https://brainiak.org))
   - [MNE Tutorials](https://mne.tools/dev/auto_tutorials/index.html) (Source: [MNE Python](https://mne.tools/dev/index.html))
-- [SkTime User Guide](https://sktime.org/en/latest/user_guide.html) (Source: [The Alan Turing Institute](https://www.turing.ac.uk/))
+- [SkTime User Guide](https://www.sktime.org/en/latest/user_guide.html) (Source: [The Alan Turing Institute](https://www.turing.ac.uk/))
 - [High-order correlations with TimeCorr](https://timecorr.readthedocs.io/en/latest/tutorials.html) (Source: [timecorr.readthedocs.io](https://timecorr.readthedocs.io/))
 
 # Module 9: Natural language processing
