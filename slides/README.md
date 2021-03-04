@@ -128,6 +128,7 @@
 - Evaluating and comparing models
   - **Optional:** [Build, compute, critique, repeat: data analysis with latent variable models](https://oar.princeton.edu/jspui/bitstream/88435/pr12b6p/1/Blei%20-%20Build%2C%20Compute%2C%20Critique%2C%20Repeat.pdf) (Source: [Annual Review of Statistics and its Application](https://www.annualreviews.org/doi/full/10.1146/annurev-statistics-022513-115657) article by [David Blei](http://www.cs.columbia.edu/~blei/))
 - **Optional:** [this repository](https://github.com/brendenlake/CCM-site) contains materials and assignments for NYU's excellent Computational Cognitive Modeling course (Source: [Brenden Lake](https://cims.nyu.edu/~brenden/) and [Todd Gureckis](http://psych.nyu.edu/gureckis/)).  Pick and choose whatever seems interesting to you!
+- [**Lecture 23 recording (W21)**](https://youtu.be/OkVBwYbOusw): model building brainstorm and discussion
 - [Assignment 5: MAGELLAN](https://github.com/ContextLab/psyc32-magellan) [[Accept assignment](https://classroom.github.com/a/pQIgULsu)]
 
 # Module 8: Natural language processing
