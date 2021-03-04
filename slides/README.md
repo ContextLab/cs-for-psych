@@ -7,7 +7,7 @@
 4. [External libraries](#module-4-external-libraries)
 5. [Collecting data](#module-5-collecting-data)
 6. [Interrogating your data](#module-6-interrogating-your-data)
-7. [Models](#module-7-models)]
+7. [Models](#module-7-models)
 8. [Natural language processing](#module-8-natural-language-processing)
 9. [Timeseries analysis](#module-9-timeseries-analysis)
 10. [Advanced topics](#module-10-advanced-topics)
