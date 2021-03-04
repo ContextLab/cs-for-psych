@@ -7,9 +7,9 @@
 4. [External libraries](#module-4-external-libraries)
 5. [Collecting data](#module-5-collecting-data)
 6. [Interrogating your data](#module-6-interrogating-your-data)
-7. [Models](#module-7-models)
-8. [Timeseries analysis](#module-8-timeseries-analysis)
-9. [Natural language processing](#module-9-natural-language-processing)
+7. [Models](#module-7-models)]
+8. [Natural language processing](#module-8-natural-language-processing)
+9. [Timeseries analysis](#module-9-timeseries-analysis)
 10. [Advanced topics](#module-10-advanced-topics)
 
 # Orientation
@@ -130,16 +130,7 @@
 - **Optional:** [this repository](https://github.com/brendenlake/CCM-site) contains materials and assignments for NYU's excellent Computational Cognitive Modeling course (Source: [Brenden Lake](https://cims.nyu.edu/~brenden/) and [Todd Gureckis](http://psych.nyu.edu/gureckis/)).  Pick and choose whatever seems interesting to you!
 - [Assignment 5: MAGELLAN](https://github.com/ContextLab/psyc32-magellan) [[Accept assignment](https://classroom.github.com/a/pQIgULsu)]
 
-# Module 8: Timeseries analysis
-- Working with brain data:
-  - [Analyzing neural responses to naturalistic data](http://naturalistic-data.org/intro) (Source: [Organization for Human Brain Mapping](https://www.humanbrainmapping.org) tutorial)
-  - [DartBrains](https://dartbrains.org) (Source: [Luke Chang](https://cosanlab.com))
-  - [BrainIAK Aperture Tutorials](https://github.com/brainiak/brainiak-aperture) (Source: [Brain Imaging Analysis Kit](https://brainiak.org))
-  - [MNE Tutorials](https://mne.tools/dev/auto_tutorials/index.html) (Source: [MNE Python](https://mne.tools/dev/index.html))
-- [SkTime User Guide](https://www.sktime.org/en/latest/user_guide.html) (Source: [The Alan Turing Institute](https://www.turing.ac.uk/))
-- [High-order correlations with TimeCorr](https://timecorr.readthedocs.io/en/latest/tutorials.html) (Source: [timecorr.readthedocs.io](https://timecorr.readthedocs.io/))
-
-# Module 9: Natural language processing
+# Module 8: Natural language processing
 - [Tokenization](https://www.youtube.com/watch?v=JGaA2nT5Qk4) (Source: [DataCamp's Introduction to Natural Language Processing in Python](https://learn.datacamp.com/courses/introduction-to-natural-language-processing-in-python))
 - [Stemming, and lemmatization](https://www.datacamp.com/community/tutorials/stemming-lemmatization-python) (Source: [DataCamp Community Tutorials](https://www.datacamp.com/community/tutorials))
 - [Parsing](https://lost-contact.mit.edu/afs/cs.pitt.edu/projects/nltk/docs/tutorial/parsing.pdf) (Source: [Edward Loper's Natural Language Processing Toolkit tutorials](https://lost-contact.mit.edu/afs/cs.pitt.edu/projects/nltk/docs/tutorial))
@@ -151,6 +142,15 @@
   - [Long Short Term Memory networks](https://adventuresinmachinelearning.com/keras-lstm-tutorial/) (Source: [Adventures in Machine Learning](https://adventuresinmachinelearning.com))
   - [Bidirectional Encoder Representations from Transformers](http://jalammar.github.io/a-visual-guide-to-using-bert-for-the-first-time/) (Source: [Jay Alammar](http://jalammar.github.io))
   - [Generative Pre-trained Transformer](https://minimaxir.com/2019/09/howto-gpt2/) (Source: [Max Woolf](https://minimaxir.com/))
+
+# Module 9: Timeseries analysis
+- Working with brain data:
+  - [Analyzing neural responses to naturalistic data](http://naturalistic-data.org/intro) (Source: [Organization for Human Brain Mapping](https://www.humanbrainmapping.org) tutorial)
+  - [DartBrains](https://dartbrains.org) (Source: [Luke Chang](https://cosanlab.com))
+  - [BrainIAK Aperture Tutorials](https://github.com/brainiak/brainiak-aperture) (Source: [Brain Imaging Analysis Kit](https://brainiak.org))
+  - [MNE Tutorials](https://mne.tools/dev/auto_tutorials/index.html) (Source: [MNE Python](https://mne.tools/dev/index.html))
+- [SkTime User Guide](https://www.sktime.org/en/latest/user_guide.html) (Source: [The Alan Turing Institute](https://www.turing.ac.uk/))
+- [High-order correlations with TimeCorr](https://timecorr.readthedocs.io/en/latest/tutorials.html) (Source: [timecorr.readthedocs.io](https://timecorr.readthedocs.io/))
 
 # Module 10: Advanced topics
 - *Note: this module was not covered during the W21 offering of PSYC 132*
