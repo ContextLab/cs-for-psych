@@ -143,6 +143,7 @@
   - [Long Short Term Memory networks](https://adventuresinmachinelearning.com/keras-lstm-tutorial/) (Source: [Adventures in Machine Learning](https://adventuresinmachinelearning.com))
   - [Bidirectional Encoder Representations from Transformers](http://jalammar.github.io/a-visual-guide-to-using-bert-for-the-first-time/) (Source: [Jay Alammar](http://jalammar.github.io))
   - [Generative Pre-trained Transformer](https://minimaxir.com/2019/09/howto-gpt2/) (Source: [Max Woolf](https://minimaxir.com/))
+ - Demo: [Natural language processing of movie reviews](https://github.com/ContextLab/cs-for-psych/blob/master/slides/module_8/NLP_of_IMDB.ipynb)
 
 # Module 9: Timeseries analysis
 - Working with brain data:
