@@ -144,6 +144,7 @@
   - [Bidirectional Encoder Representations from Transformers](http://jalammar.github.io/a-visual-guide-to-using-bert-for-the-first-time/) (Source: [Jay Alammar](http://jalammar.github.io))
   - [Generative Pre-trained Transformer](https://minimaxir.com/2019/09/howto-gpt2/) (Source: [Max Woolf](https://minimaxir.com/))
  - Demo: [Natural language processing of movie reviews](https://github.com/ContextLab/cs-for-psych/blob/master/slides/module_8/NLP_of_IMDB.ipynb)
+ - [**Lecture 24 recording (W21)**](https://youtu.be/e_BK1G5WY8A): overview of text embedding models
 
 # Module 9: Timeseries analysis
 - Working with brain data:
