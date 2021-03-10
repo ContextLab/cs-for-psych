@@ -156,6 +156,7 @@
 - [SkTime User Guide](https://www.sktime.org/en/latest/user_guide.html) (Source: [The Alan Turing Institute](https://www.turing.ac.uk/))
 - [High-order correlations with TimeCorr](https://timecorr.readthedocs.io/en/latest/tutorials.html) (Source: [timecorr.readthedocs.io](https://timecorr.readthedocs.io/))
 - Demo: [Exploring brain network dynamics during story listening](https://github.com/brainiak/brainiak-aperture/blob/master/notebooks/htfa/htfa.ipynb) (Source: [BrainIAK Aperture Demos](https://github.com/brainiak/brainiak-aperture); companion to [Kumar et al. (2020)](https://osf.io/db2ev/))
+- [**Lecture 26 recording (W21)**](https://youtu.be/YGIWmft-BA4): network dynamics, course wrap-up
 
 # Module 10: Advanced topics
 - *Note: this module was not covered during the W21 offering of PSYC 132*
