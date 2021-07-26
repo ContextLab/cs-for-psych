@@ -1,4 +1,6 @@
-[![Gitter](https://badges.gitter.im/cs-for-psych/community.svg)](https://gitter.im/cs-for-psych/PSYC-132-Winter-2021?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
+[![Gitter](https://badges.gitter.im/cs-for-psych/community.svg)](https://gitter.im/cs-for-psych/PSYC-132-Winter-2021?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5136795.svg)](https://doi.org/10.5281/zenodo.5136795)
+
+
 
 # Introduction to Programming for Psychological Scientists
 
