@@ -96,7 +96,7 @@
 - A (shallow) introduction to deep learning with [Tensorflow](https://www.tensorflow.org/tutorials/quickstart/beginner) (Source: [tensorflow.org](https://www.tensorflow.org/)) and [PyTorch](https://pytorch.org/tutorials/beginner/deep_learning_60min_blitz.html) (Source: [pytorch.org](https://pytorch.org/))
 - [PyTest](https://github.com/ContextLab/CDL-tutorials/tree/master/testing) (Source: [CDL tutorials](https://github.com/ContextLab/CDL-tutorials))
   - [More in-depth PyTest tutorial](https://www.youtube.com/watch?v=LX2ksGYXJ80) (Source: [SciPy 2019 tutorials](https://www.youtube.com/redirect?v=LX2ksGYXJ80&redir_token=QUFFLUhqbFVjTkw0a3djNGx3SnlrdlRsOFVteDU0cmpYd3xBQ3Jtc0tsWkEyeXpHODd4SXJyRWpXUHlOcFhTSEVXUGt4SFpUUmpQOW5sT05GOGVxeTRaaUFQZi15OXFnV3ozTHh4ZWNoSHU5V0lkd0E0UUo2THZ5TnV3YVdvQWxlelVHZW1QYlFlN1JfbGFVZEJDRGdQX0N6MA%3D%3D&event=video_description&q=https%3A%2F%2Fwww.scipy2019.scipy.org%2Ftutorial-participant-instructions))
-- [Assignment 4: Library tour!](https://github.com/ContextLab/psyc32-library-tour) [[Accept assignment](https://classroom.github.com/a/kU7_Fvov)]
+- [Assignment 4: Library tour!](https://github.com/ContextLab/psyc32-library-tour) [[Accept assignment](https://classroom.github.com/a/yFFZaagF)]
 
 # Module 5: Collecting data
 - *Note: this module was not covered during the W21 offering of PSYC 132*
