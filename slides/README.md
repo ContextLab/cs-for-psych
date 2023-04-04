@@ -74,7 +74,7 @@
 - [Writing maintainable and shareable code](https://towardsdatascience.com/the-ultimate-guide-to-writing-better-python-code-1362a1209e5a) (Source: [towardsdatascience](https://towardsdatascience.com))
 - [**Lecture 10 recording (W21)**](https://youtu.be/nixpJySn228): assignment 3 Q&A (part 1), lambda functions
 - [**Lecture 11 recording (W21)**](https://youtu.be/yewvdDHgpVY): assignment 3 Q&A (part 2), advanced applications of lambda functions, decorators
-- [Assignment 3: ELIZA](https://github.com/ContextLab/psyc32-eliza) [[Accept assignment](https://classroom.github.com/a/05_59FMz)]
+- [Assignment 3: ELIZA](https://github.com/ContextLab/psyc32-eliza) [[Accept assignment](https://classroom.github.com/a/kJAki_Z0)]
 
 # Module 4: External libraries
 - [Modules and Packages](https://jakevdp.github.io/WhirlwindTourOfPython/13-modules-and-packages.html) (from [Whirlwind Tour of Python](https://jakevdp.github.io/WhirlwindTourOfPython/index.html) by Jake VanderPlas)
