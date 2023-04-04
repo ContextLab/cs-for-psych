@@ -39,7 +39,7 @@
 - [**Lecture 6 recording (W21)**](https://youtu.be/LbHhsKXeb7E): dictionary and set comprehensions, generators, and iterators
 - [Variable scope and passing by value versus by reference](https://colab.research.google.com/github/ContextLab/cs-for-psych/blob/master/slides/module_2/scope_and_passing_by_value_vs_reference.ipynb)
 - [**Lecture 7 recording (W21)**](https://youtu.be/WnszGCW0o8g): variable scope, passing by value versus by reference
-- [Assignment 2: Chess puzzle solver](https://github.com/ContextLab/psyc32-n-queens) [[Accept assignment](https://classroom.github.com/a/nHf5amef)]
+- [Assignment 2: Chess puzzle solver](https://github.com/ContextLab/psyc32-n-queens) [[Accept assignment](https://classroom.github.com/a/oh7d8zy-)]
 
 # Module 3: Find your inner hacker
 - Recursion (Source: [Hany Farid's *Learn to Code in Python* course](https://farid.berkeley.edu/downloads/tutorials/learnPython/)):
