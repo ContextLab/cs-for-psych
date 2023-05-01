@@ -74,7 +74,7 @@
 - [Writing maintainable and shareable code](https://towardsdatascience.com/the-ultimate-guide-to-writing-better-python-code-1362a1209e5a) (Source: [towardsdatascience](https://towardsdatascience.com))
 - [**Lecture 10 recording (W21)**](https://youtu.be/nixpJySn228): assignment 3 Q&A (part 1), lambda functions
 - [**Lecture 11 recording (W21)**](https://youtu.be/yewvdDHgpVY): assignment 3 Q&A (part 2), advanced applications of lambda functions, decorators
-- [Assignment 3: ELIZA](https://github.com/ContextLab/psyc32-eliza) [[Accept assignment](https://classroom.github.com/a/05_59FMz)]
+- [Assignment 3: ELIZA](https://github.com/ContextLab/psyc32-eliza) [[Accept assignment](https://classroom.github.com/a/kJAki_Z0)]
 
 # Module 4: External libraries
 - [Modules and Packages](https://jakevdp.github.io/WhirlwindTourOfPython/13-modules-and-packages.html) (from [Whirlwind Tour of Python](https://jakevdp.github.io/WhirlwindTourOfPython/index.html) by Jake VanderPlas)
@@ -96,7 +96,7 @@
 - A (shallow) introduction to deep learning with [Tensorflow](https://www.tensorflow.org/tutorials/quickstart/beginner) (Source: [tensorflow.org](https://www.tensorflow.org/)) and [PyTorch](https://pytorch.org/tutorials/beginner/deep_learning_60min_blitz.html) (Source: [pytorch.org](https://pytorch.org/))
 - [PyTest](https://github.com/ContextLab/CDL-tutorials/tree/master/testing) (Source: [CDL tutorials](https://github.com/ContextLab/CDL-tutorials))
   - [More in-depth PyTest tutorial](https://www.youtube.com/watch?v=LX2ksGYXJ80) (Source: [SciPy 2019 tutorials](https://www.youtube.com/redirect?v=LX2ksGYXJ80&redir_token=QUFFLUhqbFVjTkw0a3djNGx3SnlrdlRsOFVteDU0cmpYd3xBQ3Jtc0tsWkEyeXpHODd4SXJyRWpXUHlOcFhTSEVXUGt4SFpUUmpQOW5sT05GOGVxeTRaaUFQZi15OXFnV3ozTHh4ZWNoSHU5V0lkd0E0UUo2THZ5TnV3YVdvQWxlelVHZW1QYlFlN1JfbGFVZEJDRGdQX0N6MA%3D%3D&event=video_description&q=https%3A%2F%2Fwww.scipy2019.scipy.org%2Ftutorial-participant-instructions))
-- [Assignment 4: Library tour!](https://github.com/ContextLab/psyc32-library-tour) [[Accept assignment](https://classroom.github.com/a/kU7_Fvov)]
+- [Assignment 4: Library tour!](https://github.com/ContextLab/psyc32-library-tour) [[Accept assignment](https://classroom.github.com/a/yFFZaagF)]
 
 # Module 5: Collecting data
 - *Note: this module was not covered during the W21 offering of PSYC 132*
@@ -130,7 +130,7 @@
   - **Optional:** [Build, compute, critique, repeat: data analysis with latent variable models](https://oar.princeton.edu/jspui/bitstream/88435/pr12b6p/1/Blei%20-%20Build%2C%20Compute%2C%20Critique%2C%20Repeat.pdf) (Source: [Annual Review of Statistics and its Application](https://www.annualreviews.org/doi/full/10.1146/annurev-statistics-022513-115657) article by [David Blei](http://www.cs.columbia.edu/~blei/))
 - **Optional:** [this repository](https://github.com/brendenlake/CCM-site) contains materials and assignments for NYU's excellent Computational Cognitive Modeling course (Source: [Brenden Lake](https://cims.nyu.edu/~brenden/) and [Todd Gureckis](http://psych.nyu.edu/gureckis/)).  Pick and choose whatever seems interesting to you!
 - [**Lecture 23 recording (W21)**](https://youtu.be/OkVBwYbOusw): model building brainstorm and discussion
-- [Assignment 5: MAGELLAN](https://github.com/ContextLab/psyc32-magellan) [[Accept assignment](https://classroom.github.com/a/pQIgULsu)]
+- [Assignment 5: MAGELLAN](https://github.com/ContextLab/psyc32-magellan) [[Accept assignment](https://classroom.github.com/a/CUKn-2lL)]
 
 # Module 8: Natural language processing
 - [Tokenization](https://www.youtube.com/watch?v=JGaA2nT5Qk4) (Source: [DataCamp's Introduction to Natural Language Processing in Python](https://learn.datacamp.com/courses/introduction-to-natural-language-processing-in-python))
