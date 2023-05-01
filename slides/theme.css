@@ -1,0 +1,149 @@
+/* @theme cdl-theme */
+
+@import 'uncover';
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono|Varela|Special+Elite&display=swap');
+
+code {
+    display: inline-block;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 1em;
+    letter-spacing: 0;
+    margin: 0em 0.05em;
+    padding: 0.2em 0.3em;
+    vertical-align: baseline;
+    color: #0d5f2e;
+  }
+
+  h1 {
+    font-size: 1.5em;
+  }
+  
+  h2 {
+    font-size: 1.3em;
+  }
+  
+  h3 {
+    font-size: 1.1em;
+  }
+  
+  h4 {
+    font-size: 1em;
+  }
+  
+  h5 {
+    font-size: 0.9em;
+  }
+  
+  h6 {
+    font-size: 0.8em;
+  }
+  
+  p,
+  blockquote {
+    margin: 1em 3.5em 0;
+  }
+  
+  pre {
+    display: block;
+    margin: 1em 2em 0;
+    overflow: visible;
+  }
+
+  blockquote {
+    margin: 1em 0 0;
+    padding: 0 1.5em;
+    position: relative;
+    font-family: 'Special Elite';
+  }
+  
+  mark {
+    background: transparent;
+  }
+  
+  table {
+    border-spacing: 0;
+    border-collapse: collapse;
+    margin: 1em 0 0;
+    font-size: 0.8em;
+  }
+  
+  a {
+    color: #000000;
+    text-decoration: underline;
+  }
+
+  figure {
+    height: 100px;
+    max-width: 130px;
+    padding-bottom: 10px;
+  }
+
+  figcaption {
+    position: relative;
+    font-size: 9pt;
+    left: -5px;
+    top: -60px;
+    overflow: visible;
+    overflow-wrap: break-word;
+    width: 90px;
+    font-weight: bold;
+  }
+  
+  section {
+    background-color: #dfdfdf;  
+    color: #000000;
+    font-size: 35px;
+    font-family: 'Varela';
+    height: 720px;
+    line-height: 1.35;
+    letter-spacing: 1.25px;
+    padding: 70px;
+    width: 1280px;
+    word-wrap: break-word;
+}
+
+.note {
+  position: relative;
+  top: -35px;
+  font-size: 20pt;
+}
+
+.people_gallery {
+  display: grid;
+  grid-template-columns: repeat(11, 2.5em);
+  grid-template-rows: repeat(4, 100px);
+  position: relative;
+  grid-gap: 5px;
+  left: 0.75em;
+  top: -40px;
+}
+
+.funding_gallery {
+  display: grid;
+  grid-template-columns: repeat(8, 2.5em);
+  grid-template-rows: repeat(1, 100px);
+  position: relative;
+  grid-gap: 5px;
+  left: 2.5em;
+  top: -30px;
+}
+
+.funding_caption {
+  position: relative;
+  left: -8px !important;
+}
+
+.gallery_img {
+  max-height: 75px;
+  max-width: 75px;
+}
+
+.reference {
+  font-size: 12pt;
+  text-align: right;
+  position: fixed;
+  bottom: 0.5em;
+  right: 0.25em;
+  display: block;
+  line-height: 12pt;
+}
