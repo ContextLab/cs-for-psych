@@ -8,22 +8,29 @@ transition: fade 0.25s
 class:
   - lead  
 ---
+![bg opacity:0.1](https://cdn.theatlantic.com/thumbor/FPTWEk2jCD_GOlSx-Q3p04tDPOk=/302x50:4317x2308/1600x900/media/img/mt/2014/08/shutterstock_187027727-1/original.jpg)
 
 # Make a model!
 ## Jeremy R. Manning
-### PSYC 132: Introduction to Programming for Psychological Scientists
+PSYC 132: Introduction to Programming for Psychological Scientists
 
 ---
 
-# What *is* a model (and what do "models" *do*)?
+### What *is* a model (and what do "models" *do*)?
 
-- Capture key attributes of a system or phenomenon (laws of physics, communication patterns, etc.)
-- Predict something we can't directly observe (the past, future, hidden states, etc.)
+![bg opacity:0.1](https://cdn.theatlantic.com/thumbor/FPTWEk2jCD_GOlSx-Q3p04tDPOk=/302x50:4317x2308/1600x900/media/img/mt/2014/08/shutterstock_187027727-1/original.jpg)
+
+- Capture key attributes of a system or phenomenon
+- Predict something we can't directly observe
 - Simulate some process
+
+![width:400](https://thumbs.gfycat.com/EminentTinyAlbino-size_restricted.gif)
 
 ---
 
 # What do (real) models "look" like?
+
+![bg opacity:0.1](https://cdn.theatlantic.com/thumbor/FPTWEk2jCD_GOlSx-Q3p04tDPOk=/302x50:4317x2308/1600x900/media/img/mt/2014/08/shutterstock_187027727-1/original.jpg)
 
 - A physical thing in the real world (e.g., a mouse brain is "model" of a human brain)
 - A system of differential equations that describe how different variables in a system interact
@@ -32,6 +39,8 @@ class:
 ---
 
 # What do ("fake") models "look" like?
+
+![bg opacity:0.1](https://t3.ftcdn.net/jpg/04/54/68/48/360_F_454684814_onsuNLFkDyP6ctPCA4mOg8IHeFEekSIw.jpg)
 
 - Regressions, ANOVAs, statistical tests
 - Technically these are "models," but they're not particularly satisfying to build, and in most cases we don't think these approaches "work" anything like what we're trying to explain in the real world
@@ -67,6 +76,8 @@ Take in some numbers and give out some (usually different) numbers.
 
 In the "real world," important stuff happens. In models, we're only pushing numbers around. So...who cares?
 
+![width:500](https://thumbs.gfycat.com/AcrobaticYellowCoati-size_restricted.gif)
+
 ---
 
 # The "star trek" version of building a model:
@@ -91,6 +102,8 @@ In the "real world," important stuff happens. In models, we're only pushing numb
 
   # But...(!!)
 
+![bg opacity:0.1](https://media.tenor.com/VKFtl5C7jIYAAAAC/mind-blown.gif)
+
 - Think about how you'd *represent* a "star trek" style "every molecule" dataset.  Probably...with numbers!
 - Think about how you'd write down the rules of the system.  Maybe with equations?  Functions?
 
@@ -98,17 +111,22 @@ In the "real world," important stuff happens. In models, we're only pushing numb
 
 # So what are models *really* doing?
 
+![bg opacity:0.1](https://media0.giphy.com/media/2bYewTk7K2No1NvcuK/giphy.gif)
+
 Computers (and math) can only tell us about the world in the first place by using and manipulating numbers.  For a computer, reality *is* numbers.  *To a computer, there's no distinction between a thing in the real world and the measurement or representation of that thing!*
 
 ---
 
 # So what are models *really* doing?
 
+![bg opacity:0.1](https://media0.giphy.com/media/2bYewTk7K2No1NvcuK/giphy.gif)
+
 When a number changes in a model, if that number is attached to something you think is meaningful, from the perspective of the computer *it's as though reality itself is changing.* You are the god of your simulated (model) universe.
 
 ![width:500px](https://media.tenor.com/D2ZlkeUWSk4AAAAd/zenitsu-god-mode.gif)
 
 ---
+![bg opacity:0.1](https://www.securitysales.com/wp-content/uploads/2022/10/AdobeStock_84097438.jpeg)
 
 > All models are wrong, but some are useful
 --George Box (1976)
@@ -116,6 +134,8 @@ When a number changes in a model, if that number is attached to something you th
 ---
 
 # How can you get started?
+
+![bg opacity:0.1](https://owncloud.com/wp-content/uploads/2020/09/20200327-few-graphic-1080x675.png)
 
 - What do you want to model?
 - How are you going to model it?
