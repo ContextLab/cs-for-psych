@@ -14,7 +14,7 @@
 
 # Orientation
 
-**Start here!**  The materials for each module below are organized sequentially.  Work your way from module to module (and from top to bottom within each module).  The recorded lectures (in **bold**) typically cover preceding material (after the previous lecture, within the same module). Take notes on questions, comments, concerns, etc. so that you can bring them up for discussion during our synchronous class meetings or in the [gitter channel](https://gitter.im/cs-for-psych/PSYC-132-Winter-2021).  Several items are marked as optional; they may be skipped if desired, but they are included for students who wish to gain additional exposure to the material.
+**Start here!**  The materials for each module below are organized sequentially.  Work your way from module to module (and from top to bottom within each module).  The recorded lectures (in **bold**) typically cover preceding material (after the previous lecture, within the same module). Take notes on questions, comments, concerns, etc. so that you can bring them up for discussion during our synchronous class meetings or in the [Discord workspace](https://discord.gg/AdDgJd7cbM).  Several items are marked as optional; they may be skipped if desired, but they are included for students who wish to gain additional exposure to the material.
 
 - [Welcome message](https://youtu.be/UjHUfUCpTQU)
   - [Supplemental welcome message featuring special guest lecturer](https://youtu.be/9SkgGKMBctI)
@@ -145,10 +145,12 @@
   - [Bidirectional Encoder Representations from Transformers](http://jalammar.github.io/a-visual-guide-to-using-bert-for-the-first-time/) (Source: [Jay Alammar](http://jalammar.github.io))
   - [Generative Pre-trained Transformer](https://minimaxir.com/2019/09/howto-gpt2/) (Source: [Max Woolf](https://minimaxir.com/))
  - Demo: [Natural language processing of movie reviews](https://github.com/ContextLab/cs-for-psych/blob/master/slides/module_8/NLP_of_IMDB.ipynb)
- - [**Lecture 24 recording (W21)**](https://youtu.be/e_BK1G5WY8A): overview of text embedding models
+ - [**Lecture 24 recording (W21)**](https://youtu.be/e_BK1G5WY8A): overview of text embedding models [[Slides from Spring, 2023 offering](https://github.com/ContextLab/cs-for-psych/blob/master/slides/module_8/intro_to_NLP.md)]
  - [**Lecture 25 recording (W21)**](https://youtu.be/CrVZl23Lq6c): natural language processing hackathon
+ - [Text embedding demo notebook](https://github.com/ContextLab/cs-for-psych/blob/master/slides/module_8/text_embedding_demo.ipynb)
 
 # Module 9: Timeseries analysis
+- [Introduction to time-frequency analysis](https://github.com/ContextLab/cs-for-psych/blob/master/slides/module_9/time_frequency_analyses.ipynb)
 - Working with brain data:
   - [Analyzing neural responses to naturalistic data](http://naturalistic-data.org/intro) (Source: [Organization for Human Brain Mapping](https://www.humanbrainmapping.org) tutorial)
   - [DartBrains](https://dartbrains.org) (Source: [Luke Chang](https://cosanlab.com))
