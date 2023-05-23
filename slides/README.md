@@ -157,6 +157,7 @@
   - [BrainIAK Aperture Tutorials](https://github.com/brainiak/brainiak-aperture) (Source: [Brain Imaging Analysis Kit](https://brainiak.org))
   - [MNE Tutorials](https://mne.tools/dev/auto_tutorials/index.html) (Source: [MNE Python](https://mne.tools/dev/index.html))
 - [SkTime User Guide](https://www.sktime.org/en/latest/user_guide.html) (Source: [The Alan Turing Institute](https://www.turing.ac.uk/))
+- [Fun with forecasting using Darts!](https://github.com/ContextLab/cs-for-psych/blob/master/slides/module_9/forecasting.ipynb)
 - [High-order correlations with TimeCorr](https://timecorr.readthedocs.io/en/latest/tutorials.html) (Source: [timecorr.readthedocs.io](https://timecorr.readthedocs.io/))
 - Demo: [Exploring brain network dynamics during story listening](https://github.com/brainiak/brainiak-aperture/blob/master/notebooks/htfa/htfa.ipynb) (Source: [BrainIAK Aperture Demos](https://github.com/brainiak/brainiak-aperture); companion to [Kumar et al. (2020)](https://osf.io/db2ev/))
 - [**Lecture 26 recording (W21)**](https://youtu.be/YGIWmft-BA4): network dynamics, course wrap-up
