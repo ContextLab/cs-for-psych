@@ -107,3 +107,4 @@ venv.bak/
 *#*
 
 assignments/autograder/autograder_dev.ipynb
+assignments/autograder/debug_library_tour.py
