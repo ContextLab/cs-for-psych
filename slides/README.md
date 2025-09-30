@@ -43,26 +43,26 @@
 
 # Module 3: Find your inner hacker
 - Recursion (Source: [Hany Farid's *Learn to Code in Python* course](https://farid.berkeley.edu/downloads/tutorials/learnPython/)):
-  - [Factorial](https://drive.google.com/file/d/1n2vX-cH7JCAEX7AYCgVbBux6V-xJ52wd/view)
-  - [List reversal](https://drive.google.com/file/d/1jBbKrTOn3KmipNOWWcmSv601hkJeTizp/view?usp=sharing)
-  - [List sum](https://drive.google.com/file/d/1kFyKqe5OIiJZ6WWS_JypRF5xedcyijrp/view?usp=sharing) ([associated code](https://drive.google.com/file/d/1CCYpy7pThwP2FLGVBHdANEL1uF03Dnif/view?usp=sharing))
-  - [Towers of Hanoi](https://drive.google.com/file/d/15SEWU23_iQD80Vs5vbkefdyiegnWoTyO/view?usp=sharing)
+  - [Factorial](https://youtu.be/RLyQKpYpd94)
+  - [List reversal](https://youtu.be/Iouf5V8tbnc)
+  - [List sum](https://youtu.be/57gNSs2tt3g) ([associated code](https://farid.berkeley.edu/downloads/tutorials/learnPython/codeA/lecture06-03.py))
+  - [Towers of Hanoi](https://youtu.be/gpn2Ajh987g)
 - Whirlwind tour of searching, sorting, and data structures (Source: [Hany Farid's *Learn to Code in Python* course](https://farid.berkeley.edu/downloads/tutorials/learnPython/)):
-  - [Linear and binary search](https://drive.google.com/file/d/1EukvYAyuyVnMJoYJGEO-qF7f2oy2jroX/view?usp=sharing)
+  - [Linear and binary search](https://youtu.be/ZwixA-bmSks)
   - Sorting (**optional**):
-    - [Selection sort](https://drive.google.com/file/d/1LahEi_vWr1U7gWFNT4SwAh1tzAc8gXn-/view?usp=sharing)
-    - [Insertion sort](https://drive.google.com/file/d/13BSt9rPYvd1txaXqgHPvM0-CA2tHqQEm/view?usp=sharing)
-    - [Merge sort](https://drive.google.com/file/d/1nrzVsPfblxft36pc44M3TrVqDaHsnCd3/view?usp=sharing)
-    - [Quick sort](https://drive.google.com/file/d/1NJWiskxYLYL6F4i_-wjDQU59vhdYzIT4/view?usp=sharing)
+    - [Selection sort](https://youtu.be/_nTziWJdR2o)
+    - [Insertion sort](https://youtu.be/YbhNPDhxhN4)
+    - [Merge sort](https://youtu.be/TTV82Dv6HKY)
+    - [Quick sort](https://youtu.be/U-OEo3GR60U)
   - Data structures (**optional**):
-    - [Linked lists](https://drive.google.com/file/d/1pdff_xyC8VSU_QX8_POLNlo88Wf317Sx/view?usp=sharing) (note: you may find it useful to view [this video](https://drive.google.com/file/d/1bGmFBsp7-kqSPcu1j2hXMM2GgZ7WiULE/view?usp=sharing) first)
-    - [Doubly linked lists](https://drive.google.com/file/d/1WQ957ItVBXgUovedipVywUz8QNY1neLP/view?usp=sharing)
-    - [Hashing](https://drive.google.com/file/d/1DYNmUGr2mnaoflaWAecdN0aYRl5HjBsd/view?usp=sharing) (note: you may find it useful to view [this video](https://drive.google.com/file/d/1yTw3wdLTHcsQkjnwwCb9FZp3PPf_xtZu/view?usp=sharing) first)
+    - [Singly linked lists](https://youtu.be/fFDve2qjADM) (note: you may find it useful to view [this video](https://youtu.be/Qsq7qfF2xa4) first)
+    - [Doubly linked lists](https://youtu.be/XugOsMa4FNw)
+    - [Hashing](https://youtu.be/9k_g5jkWgLw)
     - Graphs:
-      - [Overview](https://drive.google.com/file/d/1Phf9dveviodykjUzwCzkR2nFMqyWqiwo/view?usp=sharing)
-      - [Representing graphs](https://drive.google.com/file/d/1tRRVLJyeuemjMNMyS690lz4IPpYB-IWv/view?usp=sharing)
-      - [Breadth-first search](https://drive.google.com/file/d/1qHaMQXkPDHU5mfYc9WKRlNhRnHPsyB38/view)
-    - [Queues and stacks](https://drive.google.com/file/d/13fnBkyRSHuTWwVkJuOZuXL072rrHl5tC/view?usp=sharing)
+      - [Overview](https://youtu.be/Wv-LOh_OlMs)
+      - [Representing graphs](https://youtu.be/3-Ro1MCSfL0)
+      - [Breadth-first search](https://youtu.be/L26TGbwbHXM)
+    - [Queues and stacks](https://youtu.be/uJeZQqFFXJY)
 - [**Lecture 8 recording (W21)**](https://youtu.be/uqafHXnxn9Q): coding exercise on recursion, sorting, and linked lists
 - [**Lecture 9 recording (W21)**](https://youtu.be/oEvdowJkhVU): applications of data structures and algorithms, building an English to Pig Latin translator
 - [Lambda functions](https://realpython.com/python-lambda/) (Source: [realpython.com](https://realpython.com))
